@@ -12,7 +12,7 @@ export const initialTheme: FriendTheme = {
         gray20: '#5C5F6B',
         gray30: '#D0D3DA',
         gray50: '#F8F8FA',
-        gray60: '##AAAFBD',
+        gray60: '#AAAFBD',
         gray70: '#B1B9DB',
       },
       white: '#FFFFFF',
