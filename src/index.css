@@ -1,3 +1,7 @@
+:root {
+  --fr-main-gray70: #B1B9DB;
+}
+
 * {
   margin: 0;
   padding: 0;
