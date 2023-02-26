@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { FriendThemeProvider } from './Theme';
-import { Button, Text } from './components';
+import { Button, Text, Availability } from './components';
 
 const ContainerApp = styled.div`
   display: grid;
@@ -18,6 +18,7 @@ function App() {
         <Text isGray isTitle>
           Friends
         </Text>
+        <Availability active size="lg" />
         <Button variant="main"> Details</Button>
       </ContainerApp>
     </FriendThemeProvider>

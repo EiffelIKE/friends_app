@@ -1,8 +1,5 @@
-export interface AvailabilityProps extends Availability {
-  className?: string;
-}
-
-export interface Availability {
+export interface AvailabilityProps {
   active: boolean;
   size?: 'md' | 'lg';
+  className?: string;
 }

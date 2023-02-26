@@ -2,8 +2,11 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    --fr-main-gray70: ${(props) => props.theme.colors.grayScale.gray70};
-    --fr-main-bg:  ${(props) => props.theme.colors.bg};
+    --fr-main-gray70: ${({ theme }) => theme.colors.grayScale.gray70};
+    --fr-main-bg:  ${({ theme }) => theme.colors.bg};
+    --fr-main-active: ${({ theme }) => theme.colors.active};
+    --fr-main-white: ${({ theme }) => theme.colors.white};
+    --fr-main-black: ${({ theme }) => theme.colors.black}
   }
 
   * {
