@@ -25,6 +25,14 @@ const Template: ComponentStory<typeof Button> = ({
 );
 
 export const Primary = Template.bind({});
+Primary.parameters = {
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/Pe9VVOGr2sOvfOcnzzAbvX/Dev-Test?node-id=1%3A626&t=Dahbly8apBrYvnI3-1',
+    },
+  },
+};
 
 Primary.args = {
   variant: 'main',
@@ -42,6 +50,15 @@ Secondary.args = {
 };
 
 export const Disabled = Template.bind({});
+
+Disabled.parameters = {
+  parameters: {
+    design: {
+      type: 'figma',
+      url: 'https://www.figma.com/file/Pe9VVOGr2sOvfOcnzzAbvX/Dev-Test?node-id=1%3A626&t=Dahbly8apBrYvnI3-1',
+    },
+  },
+};
 
 Disabled.args = {
   variant: 'main',
