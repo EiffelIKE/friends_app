@@ -3,4 +3,5 @@ export interface TextProps {
   isTitle?: boolean;
   className?: string;
   isGray?: boolean;
+  disabled?: boolean;
 }
