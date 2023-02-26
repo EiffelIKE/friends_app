@@ -1,14 +1,21 @@
-import { FC, useMemo } from 'react';
+import { FC } from 'react';
+import classNames from 'classnames';
 import type { AvailabilityProps } from './types';
-import { getStyledAvailability } from './styles';
+
+import './styles.scss';
 
 export const Availability: FC<AvailabilityProps> = ({
   active,
   size = 'md',
   className,
 }) => {
-  const Available = useMemo(() => {
-    return getStyledAvailability({ size, active });
-  }, [active, size]);
-  return <Available className={className} />;
+  return (
+    <div
+      className={classNames(`available ${className}`, {
+        available__active: active,
+        lg: size === 'lg',
+        md: size === 'md',
+      })}
+    />
+  );
 };
