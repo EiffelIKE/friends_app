@@ -1,11 +1,12 @@
 import React from 'react';
-import {initialTheme} from '../src/Theme';
+import { initialTheme, GlobalStyles } from '../src/Theme';
 import { ThemeProvider as SCThemeProvider } from 'styled-components';
 import { DecoratorFn } from '@storybook/react';
 
 export const ThemeProvider: DecoratorFn = (StoryFn) => {
   return (
     <SCThemeProvider theme={initialTheme.theme}>
+      <GlobalStyles/>
       <StoryFn />
     </SCThemeProvider>
   )

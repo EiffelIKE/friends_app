@@ -15,6 +15,7 @@ export const initialTheme: FriendTheme = {
         gray60: '#AAAFBD',
         gray70: '#B1B9DB',
       },
+      bg: '#E5E5E5',
       white: '#FFFFFF',
       black: '#000000',
       active: '#16BA44',
