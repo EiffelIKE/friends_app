@@ -1,0 +1,14 @@
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 20px;
+  width: fit-content;
+  max-width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  &.active {
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--fr-main-black);
+  }
+}

@@ -1,4 +1,5 @@
 .text {
+  width: 100%;
   color: var(--fr-main-black);
   line-height: 24px;
   font-weight: 500;
@@ -14,5 +15,10 @@
   }
   &.disabled {
     color: var(--fr-main-gray20)
+  }
+  &.no-wrap {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }

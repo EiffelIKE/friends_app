@@ -1,7 +1,7 @@
 
 name: 'Chromatic'
 
-on: push
+on: pull-request
 
 jobs:
   chromatic-deployment:
