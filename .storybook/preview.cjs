@@ -1,8 +1,28 @@
-import { ThemeProvider, withBackground } from './decorators';
+import { GlobalDecorators } from './decorators';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
+  backgrounds: {
+    default: 'friends-app',
+    values: [
+      {
+        name: 'friends-app',
+        value: '#E5E5E5',
+      },
+      {
+        name: 'light',
+        value: '#FFFFFF',
+      },
+      {
+        name: 'dark',
+        value: '#000000',
+      },
+    ],
+  },
+  zoom: {
+    default: '2x'
+  },
   controls: {
     matchers: {
       color: /(background|color)$/i,
@@ -11,4 +31,4 @@ export const parameters = {
   },
 };
 
-export const decorators = [ ThemeProvider, withBackground ]
+export const decorators = GlobalDecorators;

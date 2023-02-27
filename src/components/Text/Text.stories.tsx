@@ -1,6 +1,5 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { Text } from './Text';
-import './styles.scss';
 
 export default {
   title: 'Components/Text',
