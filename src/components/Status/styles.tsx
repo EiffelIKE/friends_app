@@ -9,7 +9,6 @@ export const StatusContainer = styled.div`
   max-width: 100%;
   height: 24px;
   padding: 0 8px;
-  color: ${({ theme }) => theme.colors.grayScale.gray70};
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
@@ -18,6 +17,5 @@ export const StatusContainer = styled.div`
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
   }
 `;
