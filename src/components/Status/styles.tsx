@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const StatusContainer = styled.div`
+  display: flex;
+  align-items: center;
   border: 1px solid ${({ theme }) => theme.colors.grayScale.gray70};
   border-radius: 20px;
   width: fit-content;
@@ -10,7 +12,7 @@ export const StatusContainer = styled.div`
   color: ${({ theme }) => theme.colors.grayScale.gray70};
   font-weight: 500;
   font-size: 12px;
-  line-height: 22px;
+  line-height: 24px;
   & p {
     width: 100%;
     text-overflow: ellipsis;
