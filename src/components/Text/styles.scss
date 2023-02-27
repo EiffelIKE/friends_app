@@ -12,4 +12,7 @@
   &.gray {
     color: var(--fr-main-gray70);
   }
+  &.disabled {
+    color: var(--fr-main-gray20)
+  }
 }

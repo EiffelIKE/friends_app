@@ -11,7 +11,7 @@ export const Availability: FC<AvailabilityProps> = ({
 }) => {
   return (
     <div
-      className={classNames(`available ${className}`, {
+      className={classNames(`available ${className && className}`, {
         available__active: active,
         lg: size === 'lg',
         md: size === 'md',

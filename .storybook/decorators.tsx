@@ -16,17 +16,17 @@ export const withBackground: DecoratorFn = (StoryFn) => {
   return (
     <div
       style={{
-        width: '500px',
-        height: '100vh',
+        height: '300px',
         backgroundColor: '#E5E5E5',
         margin: '0 auto',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '20px',
       }}
     >
       <StoryFn />
     </div>
   );
 };
+
+export const GlobalDecorators = [ ThemeProvider, withBackground ]
