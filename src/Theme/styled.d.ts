@@ -19,6 +19,7 @@ type Colors = {
     gray60: string;
     gray70: string;
   };
+  scroll: string;
   bg: string;
   white: string;
   black: string;
