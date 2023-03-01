@@ -6,3 +6,5 @@ export { Img } from './Img';
 export { CardContainer } from './CardContainer';
 export { SectionContainer } from './SectionContainer/SectionContainer';
 export { ScrollRow } from './ScrollRow';
+export { Section } from './Section/Section';
+export { FriendCard } from './FriendCard';

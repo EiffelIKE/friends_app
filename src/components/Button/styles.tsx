@@ -65,7 +65,7 @@ export const StyledButton = styled(RButton)<ButtonProps>`
     padding: 10px;
   }
 
-  @media screen and (max-width: 575px) {
+  @media screen and (max-width: 490px) {
     width: 100%;
     padding: 20px;
   }

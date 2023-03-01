@@ -31,6 +31,7 @@ export const GlobalStyles = createGlobalStyle`
     width: 100%;
     background: var(--fr-main-bg);
     overflow-x: hidden;
+    font-family: Inter;
   }
   
   p, h1, h2, h3, h4, h5, a {

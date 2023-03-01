@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Row } from 'react-bootstrap';
 
 export const StyledRow = styled(Row)`
-  overflow-y: scroll;
+  overflow-y: auto;
   scrollbar-width: none;
   scrollbar-color: ${({ theme }) =>
     `${theme.colors.grayScale.gray70} ${theme.colors.scroll}`};
