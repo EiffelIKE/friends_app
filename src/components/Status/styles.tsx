@@ -12,6 +12,8 @@ export const StatusContainer = styled.div`
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
+  color: ${({ theme }) => theme.colors.grayScale.gray70};
+  max-width: 80%;
   & p {
     width: 100%;
     text-overflow: ellipsis;
