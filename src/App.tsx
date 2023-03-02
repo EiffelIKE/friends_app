@@ -6,8 +6,10 @@ import {
   Section,
   SectionContainer,
   ScrollRow,
-  FriendCard,
+  FriendList,
 } from './components';
+
+import { friendListMock } from './shared/const';
 
 const FriendsContainer = styled(Container)`
   display: flex;
@@ -49,11 +51,11 @@ const CardList = styled(ScrollRow)`
   }
 `;
 
-const handleClick = (id: number) => {
-  console.log(`Clicked ${id} friend's button`);
-};
-
 function App() {
+  const handleClick = (id: number) => {
+    console.log(`Clicked ${id} friend's button`);
+  };
+
   return (
     <FriendThemeProvider>
       <Section>
@@ -66,19 +68,7 @@ function App() {
               </Text>
             </TextRow>
             <CardList>
-              {[1, 2, 3, 4, 5, 6, 7].map((item) => {
-                return (
-                  <FriendCard
-                    key={item}
-                    active
-                    src="https://reqres.in/img/faces/8-image.jpg"
-                    id={item}
-                    fullName="Friend FullNameasdasdasdasdasdasdasdasdasdasd"
-                    text="Friend Statusasdasdasdasdasdasdasdasdasdasdasdasdasds"
-                    onClick={handleClick}
-                  />
-                );
-              })}
+              <FriendList data={friendListMock} onClick={handleClick} />
             </CardList>
           </FriendsContainer>
         </SectionContainer>
