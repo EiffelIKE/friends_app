@@ -1,0 +1,1 @@
+export { friendListMock } from './friendListMock';
