@@ -8,3 +8,4 @@ export { SectionContainer } from './SectionContainer/SectionContainer';
 export { ScrollRow } from './ScrollRow';
 export { Section } from './Section/Section';
 export { FriendCard } from './FriendCard';
+export { FriendList } from './FriendList';

@@ -1,11 +1,21 @@
-import { FC } from 'react';
-import { RowProps } from 'react-bootstrap';
-import { StyledRow } from './styles';
+import { RowProps, Row } from 'react-bootstrap';
 
-export const ScrollRow: FC<RowProps> = ({ children, className, styles }) => {
-  return (
-    <StyledRow styles={styles} className={className && className}>
-      {children}
-    </StyledRow>
-  );
-};
+import styled from 'styled-components';
+
+export const ScrollRow = styled(Row)<RowProps>`
+  overflow-y: auto;
+  scrollbar-width: none;
+  scrollbar-color: ${({ theme }) =>
+    `${theme.colors.grayScale.gray70} ${theme.colors.scroll}`};
+  scrollbar-width: thin;
+  ::-webkit-scrollbar {
+    width: 5px;
+    background: ${({ theme }) => theme.colors.scroll};
+    opacity: 0.3;
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: ${({ theme }) => theme.colors.grayScale.gray70};
+    border-radius: 8px;
+  }
+`;
