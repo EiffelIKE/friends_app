@@ -1,6 +1,11 @@
-import { Section, SectionContainer, Text, FriendList } from '../../components';
+import {
+  Section,
+  SectionContainer,
+  Text,
+  FriendList,
+  SkeletonFriendCard,
+} from '../../components';
 import { FriendsContainer, TextRow, CardRow } from './styles';
-
 import { friendListMock } from '../../shared/const';
 
 export const Home = () => {
@@ -19,6 +24,7 @@ export const Home = () => {
             </Text>
           </TextRow>
           <CardRow>
+            <SkeletonFriendCard />
             <FriendList data={friendListMock} onClick={handleClick} />
           </CardRow>
         </FriendsContainer>

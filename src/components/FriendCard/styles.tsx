@@ -1,7 +1,8 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { Col } from 'react-bootstrap';
 import { CardContainer } from '../CardContainer';
 import { Availability } from '../Availability';
+import { fadeIn } from '../../shared/animations';
 
 export const FriendImgContainer = styled.div`
   width: 60px;
@@ -15,7 +16,7 @@ export const FriendImgContainer = styled.div`
   }
 `;
 
-export const FriendCardContainer = styled(CardContainer)`
+export const containerStyles = css`
   padding: 14px;
   display: flex;
   gap: 14px;
@@ -24,6 +25,15 @@ export const FriendCardContainer = styled(CardContainer)`
     padding: 30px;
     gap: 30px;
   }
+`;
+
+export const Container = styled(CardContainer)`
+  ${containerStyles}
+`;
+
+export const FriendCardContainer = styled(CardContainer)`
+  ${fadeIn({})}
+  ${containerStyles}
 `;
 
 export const StyledAviability = styled(Availability)`

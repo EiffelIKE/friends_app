@@ -7,5 +7,5 @@ export { CardContainer } from './CardContainer';
 export { SectionContainer } from './SectionContainer/SectionContainer';
 export { ScrollRow } from './ScrollRow';
 export { Section } from './Section/Section';
-export { FriendCard } from './FriendCard';
+export { FriendCard, SkeletonFriendCard } from './FriendCard';
 export { FriendList } from './FriendList';

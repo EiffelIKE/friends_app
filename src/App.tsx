@@ -1,11 +1,14 @@
+import { Suspense } from 'react';
 import { FriendThemeProvider } from './Theme';
 import { Router } from './routes';
 
 function App() {
   return (
-    <FriendThemeProvider>
-      <Router />
-    </FriendThemeProvider>
+    <Suspense fallback={<div>Loading...</div>}>
+      <FriendThemeProvider>
+        <Router />
+      </FriendThemeProvider>
+    </Suspense>
   );
 }
 
