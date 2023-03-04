@@ -9,3 +9,6 @@ export { ScrollRow } from './ScrollRow';
 export { Section } from './Section/Section';
 export { FriendCard, SkeletonFriendCard } from './FriendCard';
 export { FriendList } from './FriendList';
+export { Tab } from './Tab';
+export { Row } from './Row';
+export { FriendDetail } from './FriendDetail';

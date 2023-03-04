@@ -6,5 +6,5 @@ export const SectionContainer: FC<SectionContainerProps> = ({
   className,
   children,
 }) => {
-  return <StyledDiv className={className && className}>{children}</StyledDiv>;
+  return <StyledDiv className={className || ''}>{children}</StyledDiv>;
 };

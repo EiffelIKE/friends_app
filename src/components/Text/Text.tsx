@@ -13,7 +13,7 @@ export const Text: FC<TextProps> = ({
 }) => {
   return isTitle ? (
     <h1
-      className={classNames(`text title ${className && className}`, {
+      className={classNames(`text title ${className || ''}`, {
         gray: isGray,
         disabled,
       })}
@@ -22,7 +22,7 @@ export const Text: FC<TextProps> = ({
     </h1>
   ) : (
     <p
-      className={classNames(`text ${className && className}`, {
+      className={classNames(`text ${className || ''}`, {
         gray: isGray,
         disabled,
       })}

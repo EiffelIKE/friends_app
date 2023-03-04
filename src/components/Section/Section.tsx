@@ -6,6 +6,6 @@ export const Section = styled.section`
   width: 100vw;
   height: 100vh;
   @media screen and (max-width: 576px) {
-    display: block;
+    display: flex;
   }
 `;

@@ -46,7 +46,7 @@ export const InfoContainer = styled(Col)`
   display: flex;
   flex-direction: column;
   gap: 4px;
-  margin: 4px 0 0 12px;
+  margin: 4px 0 0 10px;
   overflow: hidden;
   @media screen and (max-width: 769px) {
     margin-left: 0;

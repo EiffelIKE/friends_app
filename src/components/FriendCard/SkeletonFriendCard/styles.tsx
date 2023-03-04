@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { FriendImgContainer } from '../styles';
+import { FriendImgContainer, ButtonContainer } from '../styles';
 import { skeletonLoading } from '../../../shared/animations';
 
 export const SkeletonImgContainer = styled(FriendImgContainer)`
@@ -21,4 +21,12 @@ export const SkeletonText = styled.div`
 export const SkeletonStatus = styled.div`
   width: 80%;
   ${sharedCss};
+`;
+
+export const SkeletonButton = styled(ButtonContainer)`
+  @media screen and (max-width: 490px) {
+    padding: 20px 0;
+    border-radius: 0.25rem;
+    ${skeletonLoading({})};
+  }
 `;

@@ -6,7 +6,5 @@ export const CardContainer: FC<CardContainerProps> = ({
   className,
   children,
 }) => {
-  return (
-    <DivContainer className={className && className}>{children}</DivContainer>
-  );
+  return <DivContainer className={className || ''}>{children}</DivContainer>;
 };

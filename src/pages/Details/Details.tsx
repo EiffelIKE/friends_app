@@ -1,9 +1,11 @@
-import { Section, Text } from '../../components';
+import { Section, SectionContainer, FriendDetail } from '../../components';
 
 export const Details = () => {
   return (
     <Section>
-      <Text isTitle>Details Page</Text>
+      <SectionContainer>
+        <FriendDetail />
+      </SectionContainer>
     </Section>
   );
 };

@@ -1,9 +1,8 @@
 import { RowProps, Row } from 'react-bootstrap';
-
 import styled from 'styled-components';
 
 export const ScrollRow = styled(Row)<RowProps>`
-  overflow-y: auto;
+  overflow: overlay;
   scrollbar-width: none;
   scrollbar-color: ${({ theme }) =>
     `${theme.colors.grayScale.gray70} ${theme.colors.scroll}`};
@@ -13,6 +12,7 @@ export const ScrollRow = styled(Row)<RowProps>`
     background: ${({ theme }) => theme.colors.scroll};
     opacity: 0.3;
     border-radius: 8px;
+    margin-left: 5px;
   }
   ::-webkit-scrollbar-thumb {
     background: ${({ theme }) => theme.colors.grayScale.gray70};

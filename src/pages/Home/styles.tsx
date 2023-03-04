@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { Container, Row } from 'react-bootstrap';
-import { ScrollRow } from '../../components';
+import { Container } from 'react-bootstrap';
+import { ScrollRow, Row } from '../../components';
 
 export const FriendsContainer = styled(Container)`
   display: flex;
@@ -16,13 +16,8 @@ export const FriendsContainer = styled(Container)`
 
 export const TextRow = styled(Row)`
   margin-top: 30px;
-  margin-left: 0;
-  margin-right: 0;
   padding: 0 40px;
   overflow: hidden;
-  & > * {
-    padding: 0;
-  }
   @media screen and (max-width: 400px) {
     padding: 0 30px;
   }

@@ -1,6 +1,11 @@
 import { FC } from 'react';
 import { Col } from 'react-bootstrap';
-import { SkeletonText, SkeletonImgContainer, SkeletonStatus } from './styles';
+import {
+  SkeletonText,
+  SkeletonImgContainer,
+  SkeletonStatus,
+  SkeletonButton,
+} from './styles';
 
 import { InfoContainer, Container } from '../styles';
 
@@ -14,6 +19,7 @@ export const SkeletonFriendCard: FC = () => {
         <SkeletonText />
         <SkeletonStatus />
       </InfoContainer>
+      <SkeletonButton />
     </Container>
   );
 };
