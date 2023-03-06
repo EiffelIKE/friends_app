@@ -1,0 +1,1 @@
+export { SkeletonFriendCard } from './SkeletonFriendCard';

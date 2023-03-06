@@ -22,7 +22,7 @@ const childrenExample = (
 );
 
 export default {
-  title: 'Components/CardContainer',
+  title: 'Components/Atoms/CardContainer',
   component: CardContainer,
   decorators: [withContainer],
   argTypes: {
@@ -37,4 +37,4 @@ const Template: ComponentStory<typeof CardContainer> = ({ children }) => (
   <CardContainer>{children}</CardContainer>
 );
 
-export const WithContent = Template.bind({});
+export const WithExampleEmptyContent = Template.bind({});

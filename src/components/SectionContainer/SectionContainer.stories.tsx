@@ -22,7 +22,7 @@ const childrenExample = (
 );
 
 export default {
-  title: 'Components/SectionContainer',
+  title: 'Components/Atoms/SectionContainer',
   component: SectionContainer,
   decorators: [withContainer],
   argTypes: {
@@ -37,4 +37,4 @@ const Template: ComponentStory<typeof SectionContainer> = ({ children }) => (
   <SectionContainer>{children}</SectionContainer>
 );
 
-export const WithContent = Template.bind({});
+export const WithExmapleEmptyContent = Template.bind({});

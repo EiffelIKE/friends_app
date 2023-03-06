@@ -14,7 +14,7 @@ const statusContainer: DecoratorFn = (StoryFn) => {
 };
 
 export default {
-  title: 'Components/Status',
+  title: 'Components/Atoms/Status',
   component: StatusComponent,
 } as ComponentMeta<typeof StatusComponent>;
 

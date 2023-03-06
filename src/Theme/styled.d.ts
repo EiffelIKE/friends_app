@@ -18,10 +18,13 @@ type Colors = {
     gray50: string;
     gray60: string;
     gray70: string;
+    gray75: string;
   };
   scroll: string;
   bg: string;
   white: string;
   black: string;
   active: string;
+  error: string;
+  darkOpacity: string;
 };

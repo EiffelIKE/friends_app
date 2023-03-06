@@ -1,13 +1,16 @@
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 import { FC } from 'react';
 import classNames from 'classnames';
 import type { TabProps } from './types';
 
 import './styles.scss';
 
-export const Tab: FC<TabProps> = ({ active, className, children }) => {
+export const Tab: FC<TabProps> = ({ active, className, onClick, children }) => {
   return (
     <div
-      className={classNames(`tab ${className && className}`, {
+      onClick={onClick}
+      className={classNames(`tab ${className || ''}`, {
         active,
       })}
     >

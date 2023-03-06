@@ -18,7 +18,7 @@ const withTinyContainer: DecoratorFn = (StoryFn) => {
 };
 
 export default {
-  title: 'Components/Img',
+  title: 'Components/Atoms/Img',
   component: Img,
   args: {
     src: 'https://reqres.in/img/faces/8-image.jpg',
@@ -35,18 +35,18 @@ const Template: ComponentStory<typeof Img> = ({ src, alt }) => (
   <Img src={src} alt={alt && alt} />
 );
 
-export const TinyImg = Template.bind({});
+export const TinyContainerImg = Template.bind({});
 
-TinyImg.decorators = [withTinyContainer];
+TinyContainerImg.decorators = [withTinyContainer];
 
-TinyImg.args = {
+TinyContainerImg.args = {
   alt: 'Img with container 60x60',
 };
 
-export const BigImg = Template.bind({});
+export const BigContainerImg = Template.bind({});
 
-BigImg.decorators = [withBigContainer];
+BigContainerImg.decorators = [withBigContainer];
 
-BigImg.args = {
+BigContainerImg.args = {
   alt: 'Img with container 150x150',
 };
