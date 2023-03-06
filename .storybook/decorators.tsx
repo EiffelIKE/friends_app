@@ -17,7 +17,6 @@ export const withBackground: DecoratorFn = (StoryFn) => {
     <div
       style={{
         height: '300px',
-        backgroundColor: '#E5E5E5',
         margin: '0 auto',
         display: 'flex',
         justifyContent: 'center',

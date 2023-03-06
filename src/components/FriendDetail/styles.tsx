@@ -10,6 +10,7 @@ export const DetailsContainer = styled(Container)`
   width: 59.37vh;
   @media screen and (max-width: 608px) {
     width: 100vw;
+    height: 100vh;
   }
   @media screen and (min-width: 576px) {
     max-width: 100vw;

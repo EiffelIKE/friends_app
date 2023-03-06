@@ -22,6 +22,7 @@ export const initialTheme: FriendTheme = {
       black: '#000000',
       active: '#16BA44',
       error: '#CE1F169F',
+      darkOpacity: '#FFFFFF19',
     },
   },
   updateTheme: () => {},

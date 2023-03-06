@@ -1,18 +1,18 @@
 import styled from 'styled-components';
 import { Col } from 'react-bootstrap';
-import { Row } from '../Row';
 import { ScrollRow } from '../ScrollRow';
 
 export const TabRow = styled(Col)`
   display: flex;
   flex-direction: column;
-  gap: 10px;
 `;
 
 export const TabContainer = styled(ScrollRow)`
   display: flex;
+  flex-wrap: nowrap;
   width: 100%;
   margin: 0;
+  padding-bottom: 10px;
 `;
 
 export const TabCardRow = styled(ScrollRow)`

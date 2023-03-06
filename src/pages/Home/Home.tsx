@@ -27,7 +27,7 @@ export const Home = () => {
           </TextRow>
           <CardRow>
             <FriendList
-              data={[]}
+              data={friendListMock}
               onClick={handleClick}
               isLoading={isLoading}
               isError={false}

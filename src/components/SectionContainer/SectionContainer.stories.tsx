@@ -37,4 +37,4 @@ const Template: ComponentStory<typeof SectionContainer> = ({ children }) => (
   <SectionContainer>{children}</SectionContainer>
 );
 
-export const WithContent = Template.bind({});
+export const WithExmapleEmptyContent = Template.bind({});

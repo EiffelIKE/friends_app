@@ -26,4 +26,5 @@ type Colors = {
   black: string;
   active: string;
   error: string;
+  darkOpacity: string;
 };

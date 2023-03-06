@@ -5,9 +5,14 @@ import { Text } from '../Text';
 import { Data, FriendData, DataRow } from './styles';
 import type { DetailInfoProps } from './types';
 
-export const DetailInfo: FC<DetailInfoProps> = ({ data }) => {
+export const DetailInfo: FC<DetailInfoProps> = ({
+  data,
+  children,
+  containerClassName,
+  itemClassName,
+}) => {
   return (
-    <FriendData>
+    <FriendData className={containerClassName || ''}>
       {data.map((obj, index, array) => {
         return (
           <DataRow key={index}>
@@ -15,7 +20,7 @@ export const DetailInfo: FC<DetailInfoProps> = ({ data }) => {
               return (
                 <Data
                   key={i}
-                  className={classNames({
+                  className={classNames(`${itemClassName || ''}`, {
                     column: entrie[1].length < 24,
                     padding: i === arr.length - 1,
                     bordered:
@@ -30,6 +35,7 @@ export const DetailInfo: FC<DetailInfoProps> = ({ data }) => {
           </DataRow>
         );
       })}
+      {children}
     </FriendData>
   );
 };

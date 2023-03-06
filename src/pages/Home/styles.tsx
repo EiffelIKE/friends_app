@@ -34,4 +34,7 @@ export const CardRow = styled(ScrollRow)`
   @media screen and (max-width: 400px) {
     padding: 0 30px 30px;
   }
+  & > * {
+    padding: 0;
+  }
 `;

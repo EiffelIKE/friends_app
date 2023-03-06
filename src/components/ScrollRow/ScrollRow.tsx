@@ -9,10 +9,12 @@ export const ScrollRow = styled(Row)<RowProps>`
   scrollbar-width: thin;
   ::-webkit-scrollbar {
     width: 5px;
+    height: 5px;
     background: ${({ theme }) => theme.colors.scroll};
     opacity: 0.3;
     border-radius: 8px;
     margin-left: 5px;
+    cursor: auto;
   }
   ::-webkit-scrollbar-thumb {
     background: ${({ theme }) => theme.colors.grayScale.gray70};

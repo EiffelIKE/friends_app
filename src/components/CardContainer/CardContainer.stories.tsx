@@ -37,4 +37,4 @@ const Template: ComponentStory<typeof CardContainer> = ({ children }) => (
   <CardContainer>{children}</CardContainer>
 );
 
-export const WithContent = Template.bind({});
+export const WithExampleEmptyContent = Template.bind({});

@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory, DecoratorFn } from '@storybook/react';
 import { FriendCard } from './FriendCard';
+import friendImg from '../../assets/friends_photos/8-image.jpg';
 
 const withContainer: DecoratorFn = (StoryFn) => {
   return (
@@ -23,6 +24,15 @@ export default {
     },
   },
   decorators: [withContainer],
+  args: {
+    src: 'https://reqres.in/img/faces/8-image.jpg',
+    id: 1,
+    firstName: 'Friend Name',
+    lastName: 'Goes Here',
+    text: 'Friend Status here',
+    active: true,
+    disabled: false,
+  },
 } as ComponentMeta<typeof FriendCard>;
 
 const Template: ComponentStory<typeof FriendCard> = ({
@@ -49,23 +59,9 @@ const Template: ComponentStory<typeof FriendCard> = ({
 
 export const ActiveFriend = Template.bind({});
 
-ActiveFriend.args = {
-  active: true,
-  src: 'https://reqres.in/img/faces/8-image.jpg',
-  id: 1,
-  firstName: 'Friend Name',
-  lastName: 'Goes Here',
-  text: 'Friend Status here',
-};
-
 export const NonActiveWithDisable = Template.bind({});
 
 NonActiveWithDisable.args = {
   active: false,
-  src: 'https://reqres.in/img/faces/8-image.jpg',
-  id: 1,
-  firstName: 'Friend Name',
-  lastName: 'Goes Here',
-  text: 'Friend Status here',
   disabled: true,
 };
