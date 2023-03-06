@@ -9,6 +9,7 @@
   white-space: nowrap;
   font-weight: 500;
   user-select: none;
+  cursor: pointer;
   &.active {
     padding-bottom: 6px;
     border-bottom: 2px solid var(--fr-main-black);

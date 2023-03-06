@@ -22,7 +22,7 @@ const childrenExample = (
 );
 
 export default {
-  title: 'Components/CardContainer',
+  title: 'Components/Atoms/CardContainer',
   component: CardContainer,
   decorators: [withContainer],
   argTypes: {

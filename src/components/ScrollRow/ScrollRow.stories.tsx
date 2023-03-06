@@ -22,7 +22,7 @@ const childrenExample = (
 );
 
 export default {
-  title: 'Components/ScrollRow',
+  title: 'Components/Atoms/ScrollRow',
   component: ScrollRow,
   argTypes: {
     children: { table: { disable: true } },

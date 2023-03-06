@@ -25,4 +25,5 @@ type Colors = {
   white: string;
   black: string;
   active: string;
+  error: string;
 };

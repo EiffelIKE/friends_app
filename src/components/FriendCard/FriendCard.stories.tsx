@@ -14,7 +14,7 @@ const withContainer: DecoratorFn = (StoryFn) => {
 };
 
 export default {
-  title: 'Components/FriendCard',
+  title: 'Components/Molecules/FriendCard',
   component: FriendCard,
   parameters: {
     design: {

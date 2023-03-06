@@ -24,7 +24,6 @@ export const TextRow = styled(Row)`
 `;
 
 export const CardRow = styled(ScrollRow)`
-  gap: 14px;
   margin-left: 0;
   margin-right: 0;
   padding: 0 40px 30px;

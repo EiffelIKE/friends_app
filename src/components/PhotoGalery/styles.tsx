@@ -19,8 +19,8 @@ export const PhotoContainer = styled.div`
 export const FriendPhotos = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 1.95vh;
-  padding: 1.95vh;
+  gap: 1.9vh;
+  padding: 1.9vh;
   width: 100%;
   @media screen and (max-width: 608px) {
     padding: calc(20 / 608 * 100vw);

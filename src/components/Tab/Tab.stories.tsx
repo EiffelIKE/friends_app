@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { Tab } from './Tab';
 
 export default {
-  title: 'Components/Tab',
+  title: 'Components/Atoms/Tab',
   component: Tab,
   parameters: {
     design: {

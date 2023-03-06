@@ -32,8 +32,8 @@ export const FriendCard: FC<FriendCardProps> = ({
         </FriendImgContainer>
       </Col>
       <InfoContainer xs="6" md="8">
-        <Text className="no-wrap">{`${firstName && firstName} ${
-          lastName && lastName
+        <Text className="no-wrap">{`${firstName || ''} ${
+          lastName || ''
         }`}</Text>
         <Status text={text} />
       </InfoContainer>

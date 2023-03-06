@@ -14,7 +14,7 @@ const withContainer: DecoratorFn = (StoryFn) => {
 };
 
 export default {
-  title: 'Components/FriendCard/Skeleton',
+  title: 'Components/Molecules/FriendCard',
   component: SkeletonFriendCard,
   decorators: [withContainer],
 } as ComponentMeta<typeof SkeletonFriendCard>;

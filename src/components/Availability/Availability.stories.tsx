@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { Availability } from './Availability';
 
 export default {
-  title: 'Components/Availability',
+  title: 'Components/Atoms/Availability',
   component: Availability,
   parameters: {
     design: {

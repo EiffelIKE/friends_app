@@ -8,7 +8,6 @@ export const FriendImgContainer = styled.div`
   width: 60px;
   height: 60px;
   position: relative;
-  background-color: ${({ theme }) => theme.colors.grayScale.gray70};
   border-radius: 4px;
   @media screen and (max-width: 490px) {
     width: 100%;

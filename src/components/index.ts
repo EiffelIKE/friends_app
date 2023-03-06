@@ -12,3 +12,5 @@ export { FriendList } from './FriendList';
 export { Tab } from './Tab';
 export { Row } from './Row';
 export { FriendDetail } from './FriendDetail';
+export { PhotoGalery } from './PhotoGalery';
+export { DetailInfo } from './DetailInfo';

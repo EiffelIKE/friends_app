@@ -18,7 +18,7 @@ const withTinyContainer: DecoratorFn = (StoryFn) => {
 };
 
 export default {
-  title: 'Components/Img',
+  title: 'Components/Atoms/Img',
   component: Img,
   args: {
     src: 'https://reqres.in/img/faces/8-image.jpg',

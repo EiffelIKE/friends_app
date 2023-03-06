@@ -1,0 +1,1 @@
+export { useHandleTabs } from './useHandleTabs';

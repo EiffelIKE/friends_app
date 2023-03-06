@@ -1,11 +1,6 @@
+import type { TabObj } from '../../shared/types';
+
 export interface TabDataProps {
   tabs: Array<TabObj>;
-  activeTab: number;
-  onClick: (id: number) => void;
-  children: React.ReactNode;
+  tabChildrens: Array<React.ReactNode>;
 }
-
-export type TabObj = {
-  id: number;
-  title: string;
-};

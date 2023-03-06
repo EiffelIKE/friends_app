@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FriendData = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0 2.8vh;
+  padding: 0 2.68vh;
   @media screen and (max-width: 608px) {
     padding: 0 calc(28 / 608 * 100vw);
   }
@@ -28,7 +28,7 @@ export const Data = styled.div`
     border-bottom: 1px solid ${({ theme }) => theme.colors.grayScale.gray75};
   }
   &.padding {
-    padding-bottom: 2.8vh;
+    padding-bottom: 2.68vh;
 
     @media screen and (max-width: 608px) {
       padding-bottom: calc(28 / 608 * 100vw);
