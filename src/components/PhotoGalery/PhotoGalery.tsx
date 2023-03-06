@@ -8,8 +8,11 @@ export const PhotoGalery: FC<PhotoGaleryProps> = ({ photos, onClick }) => {
   return (
     <FriendPhotos>
       {photos.map((photo, index) => (
-        <PhotoContainer key={index} onClick={() => onClick(photo)}>
-          <Img src={photo} alt={`Photo ${index}`} />
+        <PhotoContainer
+          key={index}
+          onClick={() => onClick(photo, `Friend Photo ${index}`)}
+        >
+          <Img src={photo} alt={`Friend Photo ${index}`} />
         </PhotoContainer>
       ))}
     </FriendPhotos>

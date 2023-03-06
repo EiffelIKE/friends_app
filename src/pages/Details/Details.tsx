@@ -7,6 +7,7 @@ import {
   PhotoGalery,
   DetailInfo,
   Button,
+  GalleryModal,
 } from '../../components';
 
 import {
@@ -20,7 +21,7 @@ const childrens = [
   <PhotoGalery
     key={1}
     photos={photoGaleryMock}
-    onClick={(src) => console.log(src)}
+    onClick={(src, alt) => console.log(alt)}
   />,
 ];
 
@@ -37,6 +38,11 @@ export const Details = () => {
   return (
     <Section>
       <DetailsContainer>
+        <GalleryModal
+          src={photoGaleryMock[0]}
+          alt="Photo"
+          onClose={() => null}
+        />
         <BackButton
           variant="secondary"
           className="icon"
