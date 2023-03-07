@@ -2,13 +2,17 @@ import React from 'react';
 import { initialTheme, GlobalStyles } from '../src/Theme';
 import { ThemeProvider as SCThemeProvider } from 'styled-components';
 import { DecoratorFn } from '@storybook/react';
+import { Provider as ReduxProvider } from 'react-redux';
+import {store} from '../src/store'
 
-export const ThemeProvider: DecoratorFn = (StoryFn) => {
+export const setUpProviders: DecoratorFn = (StoryFn) => {
   return (
-    <SCThemeProvider theme={initialTheme.theme}>
-      <GlobalStyles/>
-      <StoryFn />
-    </SCThemeProvider>
+    <ReduxProvider store={store}>
+      <SCThemeProvider theme={initialTheme.theme}>
+        <GlobalStyles/>
+        <StoryFn />
+      </SCThemeProvider>
+    </ReduxProvider>
   )
 }
 
@@ -29,4 +33,4 @@ export const withBackground: DecoratorFn = (StoryFn) => {
   );
 };
 
-export const GlobalDecorators = [ ThemeProvider, withBackground ]
+export const GlobalDecorators = [ setUpProviders, withBackground ]
