@@ -5,4 +5,5 @@ export interface FriendListProps {
   isLoading: boolean;
   isError: boolean;
   onClick: (id: number) => void;
+  isDisabled: (id: number) => boolean;
 }
