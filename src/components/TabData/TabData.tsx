@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { CardContainer } from '../CardContainer';
-import { TabCardRow, TabRow, TabContainer } from './styles';
+import { TabCardRow, TabRow, TabContainer, Ul } from './styles';
 import { Tab } from '../Tab';
 import { Text } from '../Text';
 import { useHandleTabs } from '../../shared/hooks';
@@ -12,17 +12,20 @@ export const TabData: FC<TabDataProps> = ({ tabs, tabChildrens }) => {
   return (
     <TabRow>
       <TabContainer>
-        {tabs.map((tab) => {
-          return (
-            <Tab
-              key={tab.id}
-              active={activeTab === tab.id}
-              onClick={() => handleTab(tab.id)}
-            >
-              <Text disabled={activeTab !== tab.id}>{tab.title}</Text>
-            </Tab>
-          );
-        })}
+        <Ul>
+          {tabs.map((tab) => {
+            return (
+              <li key={tab.id}>
+                <Tab
+                  active={activeTab === tab.id}
+                  onClick={() => handleTab(tab.id)}
+                >
+                  <Text disabled={activeTab !== tab.id}>{tab.title}</Text>
+                </Tab>
+              </li>
+            );
+          })}
+        </Ul>
       </TabContainer>
       <TabCardRow>
         <CardContainer>{renderNode}</CardContainer>

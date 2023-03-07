@@ -18,6 +18,11 @@ const ChildrenContainer = styled.div`
   height: 100%;
 `;
 
+export const TabsChildren = [
+  <ChildrenContainer key={0}>Tab1 content</ChildrenContainer>,
+  <ChildrenContainer key={0}>Tab2 content</ChildrenContainer>,
+];
+
 const withContainer: DecoratorFn = (Storyfn) => {
   return (
     <Container>
@@ -31,10 +36,7 @@ export default {
   component: TabData,
   args: {
     tabs: tabsDataMock,
-    tabChildrens: [
-      <ChildrenContainer key={0}>Tab1 content</ChildrenContainer>,
-      <ChildrenContainer key={0}>Tab2 content</ChildrenContainer>,
-    ],
+    tabChildrens: TabsChildren,
   },
   decorators: [withContainer],
 } as ComponentMeta<typeof TabData>;
@@ -43,7 +45,7 @@ const Template: ComponentStory<typeof TabData> = ({ tabs, tabChildrens }) => (
   <TabData tabs={tabs} tabChildrens={tabChildrens} />
 );
 
-export const Default = Template.bind({});
+export const DefaultTabDada = Template.bind({});
 
 export const MoreTabsThanSons = Template.bind({});
 

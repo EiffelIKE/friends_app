@@ -39,24 +39,22 @@ export const Details = () => {
         >
           <HiArrowLeft />
         </BackButton>
-        <SectionContainer>
-          <FriendDetail
-            src="https://reqres.in/img/faces/9-image.jpg"
-            active
-            tabs={tabsDataMock}
-            tabsChildren={[
-              <DetailInfo key={0} data={detailsDataMock} />,
-              <PhotoGalery
-                key={1}
-                photos={photoGaleryMock}
-                onClick={(source, description) => setPhoto(source, description)}
-              />,
-            ]}
-            firstName="Josh"
-            lastName="Charlesasdasdasdasdasdasdasdasdasdasdasdasd"
-            status="Building internet stuffs"
-          />
-        </SectionContainer>
+        <FriendDetail
+          src="https://reqres.in/img/faces/9-image.jpg"
+          active
+          tabs={tabsDataMock}
+          tabsChildren={[
+            <DetailInfo key={0} data={detailsDataMock} />,
+            <PhotoGalery
+              key={1}
+              photos={photoGaleryMock}
+              onClick={(source, description) => setPhoto(source, description)}
+            />,
+          ]}
+          firstName="Josh"
+          lastName="Charlesasdasdasdasdasdasdasdasdasdasdasdasd"
+          status="Building internet stuffs"
+        />
       </DetailsContainer>
       {src &&
         alt &&

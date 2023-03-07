@@ -8,11 +8,15 @@ export const TabRow = styled(Col)`
 `;
 
 export const TabContainer = styled(ScrollRow)`
-  display: flex;
-  flex-wrap: nowrap;
   width: 100%;
   margin: 0;
   padding-bottom: 10px;
+`;
+
+export const Ul = styled.ul`
+  display: flex;
+  flex-wrap: nowrap;
+  display: 100%;
 `;
 
 export const TabCardRow = styled(ScrollRow)`
