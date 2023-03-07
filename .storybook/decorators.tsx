@@ -16,11 +16,12 @@ export const withBackground: DecoratorFn = (StoryFn) => {
   return (
     <div
       style={{
-        height: '300px',
+        minHeight: '300px',
         margin: '0 auto',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        overflow: 'hidden',
       }}
     >
       <StoryFn />

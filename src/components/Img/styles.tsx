@@ -12,4 +12,10 @@ export const StyledImg = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(1);
+  transition: transform 0.4s;
+  &.gallery:hover {
+    transform: scale(1.06);
+    transition: transform 0.4s;
+  }
 `;

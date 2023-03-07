@@ -4,9 +4,10 @@ import photo2 from '../../assets/friends_photos/10-image.jpg';
 import photo3 from '../../assets/friends_photos/11-image.jpg';
 import photo4 from '../../assets/friends_photos/12-image.jpg';
 import photo5 from '../../assets/friends_photos/8-image.jpg';
+import photo6 from '../../assets/friends_photos/13-image.jpeg';
 
 export const photoGaleryMock = [
-  photo0,
+  photo6,
   photo1,
   photo2,
   photo3,

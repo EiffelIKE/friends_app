@@ -8,6 +8,7 @@ import {
   InfoContainer,
 } from './styles';
 import { Text } from '../Text';
+import { SectionContainer } from '../SectionContainer/SectionContainer';
 import { Img } from '../Img';
 import { Status } from '../Status';
 import { TabData } from '../TabData';
@@ -23,22 +24,27 @@ export const FriendDetail: FC<FriendsDetailsProps> = ({
   tabsChildren,
 }) => {
   return (
-    <DetailsContainer>
-      <DetailsCol>
-        <InfoRow>
-          <ImageContainer>
-            <Img src={src} alt={`${firstName || ''} ${lastName || ''} Image`} />
-            <StyledAvilable size="lg" active={active} />
-          </ImageContainer>
-          <InfoContainer>
-            <Text isTitle className="no-wrap">{`${firstName || ''} ${
-              lastName || ''
-            }`}</Text>
-            <Status text={status} />
-          </InfoContainer>
-        </InfoRow>
-        <TabData tabs={tabs} tabChildrens={tabsChildren} />
-      </DetailsCol>
-    </DetailsContainer>
+    <SectionContainer>
+      <DetailsContainer>
+        <DetailsCol>
+          <InfoRow>
+            <ImageContainer>
+              <Img
+                src={src}
+                alt={`${firstName || ''} ${lastName || ''} Image`}
+              />
+              <StyledAvilable size="lg" active={active} />
+            </ImageContainer>
+            <InfoContainer>
+              <Text isTitle className="no-wrap">{`${firstName || ''} ${
+                lastName || ''
+              }`}</Text>
+              <Status text={status} />
+            </InfoContainer>
+          </InfoRow>
+          <TabData tabs={tabs} tabChildrens={tabsChildren} />
+        </DetailsCol>
+      </DetailsContainer>
+    </SectionContainer>
   );
 };

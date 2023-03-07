@@ -82,13 +82,15 @@ export const StyledButton = styled(RButton)<ButtonProps>`
   &.icon {
     padding: 10px;
     border-radius: 8px;
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
   }
 
   @media screen and (max-width: 490px) {
     width: 100%;
-    padding: 20px;
-    &.icon {
-      padding: 10px;
+    &:not(.icon) {
+      padding: 20px;
     }
   }
 `;

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { HiArrowLeft } from 'react-icons/hi';
+import { createPortal } from 'react-dom';
 import {
   Section,
   SectionContainer,
@@ -7,6 +8,7 @@ import {
   PhotoGalery,
   DetailInfo,
   Button,
+  GalleryModal,
 } from '../../components';
 
 import {
@@ -14,15 +16,7 @@ import {
   tabsDataMock,
   photoGaleryMock,
 } from '../../shared/const';
-
-const childrens = [
-  <DetailInfo key={0} data={detailsDataMock} />,
-  <PhotoGalery
-    key={1}
-    photos={photoGaleryMock}
-    onClick={(src) => console.log(src)}
-  />,
-];
+import { useGalleryModal } from '../../shared/hooks/useGalleyModal';
 
 const DetailsContainer = styled.div`
   position: relative;
@@ -34,6 +28,7 @@ const BackButton = styled(Button)`
 `;
 
 export const Details = () => {
+  const { setPhoto, onClose, src, alt } = useGalleryModal();
   return (
     <Section>
       <DetailsContainer>
@@ -44,18 +39,29 @@ export const Details = () => {
         >
           <HiArrowLeft />
         </BackButton>
-        <SectionContainer>
-          <FriendDetail
-            src="https://reqres.in/img/faces/9-image.jpg"
-            active
-            tabs={tabsDataMock}
-            tabsChildren={childrens}
-            firstName="Josh"
-            lastName="Charlesasdasdasdasdasdasdasdasdasdasdasdasd"
-            status="Building internet stuffs"
-          />
-        </SectionContainer>
+        <FriendDetail
+          src="https://reqres.in/img/faces/9-image.jpg"
+          active
+          tabs={tabsDataMock}
+          tabsChildren={[
+            <DetailInfo key={0} data={detailsDataMock} />,
+            <PhotoGalery
+              key={1}
+              photos={photoGaleryMock}
+              onClick={(source, description) => setPhoto(source, description)}
+            />,
+          ]}
+          firstName="Josh"
+          lastName="Charlesasdasdasdasdasdasdasdasdasdasdasdasd"
+          status="Building internet stuffs"
+        />
       </DetailsContainer>
+      {src &&
+        alt &&
+        createPortal(
+          <GalleryModal alt="alt" src={src} onClose={onClose} />,
+          document.getElementById('gallery') as HTMLElement
+        )}
     </Section>
   );
 };

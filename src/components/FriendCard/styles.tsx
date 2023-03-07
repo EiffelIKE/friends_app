@@ -39,6 +39,7 @@ export const StyledAviability = styled(Availability)`
   position: absolute;
   top: -3px;
   left: -4px;
+  z-index: 1;
 `;
 
 export const InfoContainer = styled(Col)`

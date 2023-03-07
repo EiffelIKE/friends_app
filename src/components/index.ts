@@ -14,3 +14,5 @@ export { Row } from './Row';
 export { FriendDetail } from './FriendDetail';
 export { PhotoGalery } from './PhotoGalery';
 export { DetailInfo } from './DetailInfo';
+export { ModalContainer } from './ModalContainer';
+export { GalleryModal } from './GalleryModal';
