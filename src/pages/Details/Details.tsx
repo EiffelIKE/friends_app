@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { HiArrowLeft } from 'react-icons/hi';
+import { createPortal } from 'react-dom';
 import {
   Section,
   SectionContainer,
@@ -15,15 +16,7 @@ import {
   tabsDataMock,
   photoGaleryMock,
 } from '../../shared/const';
-
-const childrens = [
-  <DetailInfo key={0} data={detailsDataMock} />,
-  <PhotoGalery
-    key={1}
-    photos={photoGaleryMock}
-    onClick={(src, alt) => console.log(alt)}
-  />,
-];
+import { useGalleryModal } from '../../shared/hooks/useGalleyModal';
 
 const DetailsContainer = styled.div`
   position: relative;
@@ -35,14 +28,10 @@ const BackButton = styled(Button)`
 `;
 
 export const Details = () => {
+  const { setPhoto, onClose, src, alt } = useGalleryModal();
   return (
     <Section>
       <DetailsContainer>
-        <GalleryModal
-          src={photoGaleryMock[0]}
-          alt="Photo"
-          onClose={() => null}
-        />
         <BackButton
           variant="secondary"
           className="icon"
@@ -55,13 +44,26 @@ export const Details = () => {
             src="https://reqres.in/img/faces/9-image.jpg"
             active
             tabs={tabsDataMock}
-            tabsChildren={childrens}
+            tabsChildren={[
+              <DetailInfo key={0} data={detailsDataMock} />,
+              <PhotoGalery
+                key={1}
+                photos={photoGaleryMock}
+                onClick={(source, description) => setPhoto(source, description)}
+              />,
+            ]}
             firstName="Josh"
             lastName="Charlesasdasdasdasdasdasdasdasdasdasdasdasd"
             status="Building internet stuffs"
           />
         </SectionContainer>
       </DetailsContainer>
+      {src &&
+        alt &&
+        createPortal(
+          <GalleryModal alt="alt" src={src} onClose={onClose} />,
+          document.getElementById('gallery') as HTMLElement
+        )}
     </Section>
   );
 };
