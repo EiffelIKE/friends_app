@@ -1,5 +1,8 @@
 import { GlobalDecorators } from './decorators';
+import { initialize } from 'msw-storybook-addon';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+initialize()
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },

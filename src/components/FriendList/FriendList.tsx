@@ -9,6 +9,7 @@ export const FriendList: FC<FriendListProps> = ({
   onClick,
   isLoading,
   isError,
+  isDisabled,
 }) => {
   if (isError) {
     return (
@@ -33,7 +34,7 @@ export const FriendList: FC<FriendListProps> = ({
     );
   }
 
-  if (data.length === 0) {
+  if (data && data.length === 0) {
     return (
       <MessageContainer>
         <Text>Your friend list is empty.</Text>
@@ -54,7 +55,7 @@ export const FriendList: FC<FriendListProps> = ({
               lastName={item.last_name}
               text={item.status}
               onClick={() => onClick && onClick(item.id)}
-              disabled={false}
+              disabled={isDisabled(item.id)}
             />
           </li>
         );

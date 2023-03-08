@@ -11,6 +11,6 @@ to {
 }
 `;
 
-export const scaleOut = ({ time = '0.4s' }: { time?: string }) => css`
+export const scaleOut = ({ time = '0.3s' }: { time?: string }) => css`
   animation: ${scaleKeyframes} ${time} ease-out;
 `;

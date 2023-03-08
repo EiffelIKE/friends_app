@@ -8,11 +8,16 @@ import type { GalleryModalProps } from './types';
 export const GalleryModal: FC<GalleryModalProps> = ({ src, alt, onClose }) => {
   return (
     <ModalContainer>
-      <CloseButton variant="dark" className="icon" onClick={() => onClose()}>
+      <CloseButton
+        aria-label="close button"
+        variant="dark"
+        className="icon"
+        onClick={() => onClose()}
+      >
         <IoClose />
       </CloseButton>
       <ImageContainer>
-        <Img src={src} alt={alt} />
+        <Img src={src} alt={`${alt} open`} />
       </ImageContainer>
     </ModalContainer>
   );

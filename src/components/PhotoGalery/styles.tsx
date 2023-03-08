@@ -4,9 +4,7 @@ export const PhotoContainer = styled.div`
   width: 13.28vh;
   height: 13.28vh;
   cursor: pointer;
-  &:hover {
-    opacity: 0.6;
-  }
+
   &:active {
     opacity: 0.5;
   }

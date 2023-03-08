@@ -16,3 +16,4 @@ export { PhotoGalery } from './PhotoGalery';
 export { DetailInfo } from './DetailInfo';
 export { ModalContainer } from './ModalContainer';
 export { GalleryModal } from './GalleryModal';
+export { FallBack } from './FallBack';

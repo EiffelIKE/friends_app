@@ -1,19 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useCallback } from 'react';
 import { Section, SectionContainer, Text, FriendList } from '../../components';
 import { FriendsContainer, TextRow, CardRow } from './styles';
-import { friendListMock } from '../../shared/const';
+import { useFriends, useDetails } from './hooks';
 
 export const Home = () => {
-  const [isLoading, setloading] = useState(true);
-  const handleClick = (id: number) => {
-    console.log(`Clicked ${id} friend's button`);
-  };
+  const { friends, isLoading, isError } = useFriends();
+  const { isDisabled } = useDetails();
+  const navigate = useNavigate();
 
-  useEffect(() => {
-    setTimeout(() => {
-      setloading(false);
-    }, 5000);
-  }, []);
+  const handleClick = useCallback(() => navigate('/details'), [navigate]);
 
   return (
     <Section>
@@ -27,10 +23,11 @@ export const Home = () => {
           </TextRow>
           <CardRow>
             <FriendList
-              data={friendListMock}
+              data={friends}
               onClick={handleClick}
               isLoading={isLoading}
-              isError={false}
+              isError={isError}
+              isDisabled={isDisabled}
             />
           </CardRow>
         </FriendsContainer>
