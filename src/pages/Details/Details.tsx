@@ -1,67 +1,52 @@
-import styled from 'styled-components';
+import { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { HiArrowLeft } from 'react-icons/hi';
-import { createPortal } from 'react-dom';
+import { useGalleryModal } from '../../shared/hooks';
+import { useGetInfo } from './hooks';
 import {
   Section,
-  SectionContainer,
   FriendDetail,
   PhotoGalery,
   DetailInfo,
-  Button,
-  GalleryModal,
 } from '../../components';
+import { tabsDataMock as tabs } from '../../shared/const';
+import { BackButton, DetailsContainer } from './styles';
 
-import {
-  detailsDataMock,
-  tabsDataMock,
-  photoGaleryMock,
-} from '../../shared/const';
-import { useGalleryModal } from '../../shared/hooks/useGalleyModal';
+import type { DetailsProps } from './types';
 
-const DetailsContainer = styled.div`
-  position: relative;
-`;
-
-const BackButton = styled(Button)`
-  position: absolute;
-  left: -120px;
-`;
-
-export const Details = () => {
-  const { setPhoto, onClose, src, alt } = useGalleryModal();
+export const Details: FC<DetailsProps> = ({ data }) => {
+  const { setPhoto, openModal, renderModal } = useGalleryModal();
+  const { detailInfo } = useGetInfo(data);
+  const navigate = useNavigate();
   return (
     <Section>
       <DetailsContainer>
         <BackButton
+          aria-label="back button"
           variant="secondary"
           className="icon"
-          onClick={() => window.history.back()}
+          onClick={() => navigate('/')}
         >
           <HiArrowLeft />
         </BackButton>
         <FriendDetail
-          src="https://reqres.in/img/faces/9-image.jpg"
-          active
-          tabs={tabsDataMock}
+          src={data.img}
+          active={data.available}
+          firstName={data.first_name}
+          lastName={data.last_name}
+          status={data.statuses[0]}
+          tabs={tabs}
           tabsChildren={[
-            <DetailInfo key={0} data={detailsDataMock} />,
+            <DetailInfo key={0} data={detailInfo} />,
             <PhotoGalery
               key={1}
-              photos={photoGaleryMock}
+              photos={data.photos}
               onClick={(source, description) => setPhoto(source, description)}
             />,
           ]}
-          firstName="Josh"
-          lastName="Charlesasdasdasdasdasdasdasdasdasdasdasdasd"
-          status="Building internet stuffs"
         />
       </DetailsContainer>
-      {src &&
-        alt &&
-        createPortal(
-          <GalleryModal alt="alt" src={src} onClose={onClose} />,
-          document.getElementById('gallery') as HTMLElement
-        )}
+      {openModal && renderModal()}
     </Section>
   );
 };

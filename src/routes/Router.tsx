@@ -2,7 +2,9 @@ import { lazy } from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 
 const HomePage = lazy(() => import('../pages/Home'));
-const DetailsPage = lazy(() => import('../pages/Details'));
+const DetailsPage = lazy(
+  () => import('./ProtectRouteDetail/ProtectRouteDetail')
+);
 
 export const Router = () => {
   return (

@@ -20,6 +20,7 @@ export default {
   component: FriendList,
   args: {
     data: friendListMock,
+    isDisabled: () => false,
   },
   decorators: [withContainer],
 } as ComponentMeta<typeof FriendList>;
@@ -29,12 +30,14 @@ const Template: ComponentStory<typeof FriendList> = ({
   onClick,
   isLoading,
   isError,
+  isDisabled,
 }) => (
   <FriendList
     data={data}
     onClick={onClick}
     isLoading={isLoading}
     isError={isError}
+    isDisabled={isDisabled}
   />
 );
 

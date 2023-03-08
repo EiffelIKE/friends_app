@@ -1,0 +1,1 @@
+export { useGetInfo } from './useGetInfo';

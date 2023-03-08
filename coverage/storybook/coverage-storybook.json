@@ -40,7 +40,7 @@
     },
     "branchMap": {},
     "s": {
-      "0": 41
+      "0": 45
     },
     "f": {
       "0": 0
@@ -247,17 +247,17 @@
       }
     },
     "s": {
-      "0": 41,
-      "1": 41,
-      "2": 41,
+      "0": 45,
+      "1": 45,
+      "2": 45,
       "3": 0,
       "4": 0,
       "5": 0,
-      "6": 41,
+      "6": 45,
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 41
+      "10": 45
     },
     "f": {
       "0": 0,
@@ -486,21 +486,21 @@
     },
     "branchMap": {},
     "s": {
-      "0": 41,
-      "1": 82,
-      "2": 82,
-      "3": 82,
-      "4": 82,
-      "5": 82,
-      "6": 82
+      "0": 45,
+      "1": 89,
+      "2": 89,
+      "3": 89,
+      "4": 89,
+      "5": 89,
+      "6": 89
     },
     "f": {
-      "0": 82,
-      "1": 82,
-      "2": 82,
-      "3": 82,
-      "4": 82,
-      "5": 82
+      "0": 89,
+      "1": 89,
+      "2": 89,
+      "3": 89,
+      "4": 89,
+      "5": 89
     },
     "b": {}
   },
@@ -661,14 +661,14 @@
     },
     "branchMap": {},
     "s": {
-      "0": 41,
+      "0": 45,
       "1": 0,
       "2": 0,
       "3": 0,
       "4": 0,
       "5": 0,
-      "6": 41,
-      "7": 82
+      "6": 45,
+      "7": 90
     },
     "f": {
       "0": 0,
@@ -677,16 +677,16 @@
     },
     "b": {}
   },
-  "D:/Work/Projects/DSpot/friends_app/src/components/ModalContainer/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/ModalContainer/styles.tsx",
+  "D:/Work/Projects/DSpot/friends_app/src/store/api/baseQuery.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/store/api/baseQuery.tsx",
     "statementMap": {
       "0": {
         "start": {
           "line": 3,
-          "column": 7
+          "column": 25
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "column": null
         }
       }
@@ -694,13 +694,541 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 3
+      "0": 45
     },
     "f": {},
     "b": {}
   },
-  "D:/Work/Projects/DSpot/friends_app/src/components/ModalContainer/ModalContainer.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/ModalContainer/ModalContainer.tsx",
+  "D:/Work/Projects/DSpot/friends_app/src/store/api/apiSlice.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/store/api/apiSlice.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 24
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 27
+        },
+        "end": {
+          "line": 6,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 45,
+      "1": 45
+    },
+    "f": {
+      "0": 45
+    },
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/store/slices/detailSlice.ts": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/store/slices/detailSlice.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 20
+        },
+        "end": {
+          "line": 17,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 14,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 19,
+          "column": 30
+        },
+        "end": {
+          "line": 19,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 29
+        },
+        "end": {
+          "line": 21,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 21,
+          "column": 51
+        },
+        "end": {
+          "line": 21,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 16
+          },
+          "end": {
+            "line": 13,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 68
+          },
+          "end": {
+            "line": 15,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 29
+          },
+          "end": {
+            "line": 21,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 51
+          },
+          "end": {
+            "line": 21,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 45,
+      "1": 0,
+      "2": 45,
+      "3": 45,
+      "4": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/store/store.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/store/store.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 21
+        },
+        "end": {
+          "line": 16,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 15
+          },
+          "end": {
+            "line": 12,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 4
+          },
+          "end": {
+            "line": 13,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 45,
+      "1": 45,
+      "2": 45
+    },
+    "f": {
+      "0": 45
+    },
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/Availability/Availability.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Availability/Availability.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 21,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 13,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 7,
+          "column": 48
+        },
+        "end": {
+          "line": 7,
+          "column": 52
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 48
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 21,
+            "column": 2
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 26
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 8,
+            "column": null
+          }
+        },
+        "type": "default-arg",
+        "locations": [
+          {
+            "start": {
+              "line": 8,
+              "column": 2
+            },
+            "end": {
+              "line": 8,
+              "column": null
+            }
+          }
+        ]
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 2
+          },
+          "end": {
+            "line": 12,
+            "column": null
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 2
+            },
+            "end": {
+              "line": 12,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 2
+            },
+            "end": {
+              "line": 12,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 126,
+      "1": 18,
+      "2": 44,
+      "3": 18,
+      "4": 18
+    },
+    "f": {
+      "0": 18,
+      "1": 44
+    },
+    "b": {
+      "0": [
+        18
+      ],
+      "1": [
+        31
+      ],
+      "2": [
+        44,
+        3
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/Img/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Img/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 8,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 31
+        },
+        "end": {
+          "line": 8,
+          "column": 60
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 7
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 33
+          },
+          "end": {
+            "line": 3,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 31
+          },
+          "end": {
+            "line": 8,
+            "column": 60
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 20,
+      "1": 94,
+      "2": 20
+    },
+    "f": {
+      "0": 94
+    },
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/Img/Img.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Img/Img.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -718,7 +1246,7 @@
           "column": 7
         },
         "end": {
-          "line": 7,
+          "line": 16,
           "column": 2
         }
       },
@@ -728,28 +1256,38 @@
           "column": 2
         },
         "end": {
-          "line": 6,
+          "line": 7,
           "column": null
         }
       },
       "3": {
         "start": {
-          "line": 7,
+          "line": 6,
           "column": 2
         },
         "end": {
-          "line": 7,
+          "line": 6,
           "column": null
         }
       },
       "4": {
         "start": {
+          "line": 16,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
           "line": 5,
-          "column": 43
+          "column": 30
         },
         "end": {
           "line": 5,
-          "column": 47
+          "column": 34
         }
       }
     },
@@ -786,17 +1324,40 @@
           },
           "end": {
             "line": 5,
-            "column": 43
+            "column": 30
           }
         },
         "loc": {
           "start": {
             "line": 5,
-            "column": 58
+            "column": 56
           },
           "end": {
-            "line": 7,
+            "line": 16,
             "column": 2
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 2
+          },
+          "end": {
+            "line": 6,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 2
+          },
+          "end": {
+            "line": 6,
+            "column": null
           }
         }
       }
@@ -826,24 +1387,400 @@
             }
           }
         ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 2
+          },
+          "end": {
+            "line": 6,
+            "column": null
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 2
+            },
+            "end": {
+              "line": 6,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 2
+            },
+            "end": {
+              "line": 6,
+              "column": null
+            }
+          }
+        ]
       }
     },
     "s": {
-      "0": 21,
-      "1": 3,
-      "2": 4,
-      "3": 3,
-      "4": 3
+      "0": 140,
+      "1": 20,
+      "2": 94,
+      "3": 0,
+      "4": 20,
+      "5": 20
     },
     "f": {
-      "0": 3,
-      "1": 4
+      "0": 20,
+      "1": 94,
+      "2": 0
     },
     "b": {
       "0": [
-        3
+        20
+      ],
+      "1": [
+        188,
+        140
       ]
     }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/PhotoGalery/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/PhotoGalery/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 7
+        },
+        "end": {
+          "line": 17,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 10,
+      "1": 10
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/PhotoGalery/PhotoGalery.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/PhotoGalery/PhotoGalery.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 20,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 8,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 7,
+          "column": 46
+        },
+        "end": {
+          "line": 7,
+          "column": 50
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 68
+          },
+          "end": {
+            "line": 20,
+            "column": 2
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 8,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 11,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 70,
+      "1": 10,
+      "2": 6,
+      "3": 48,
+      "4": 1,
+      "5": 10,
+      "6": 10
+    },
+    "f": {
+      "0": 10,
+      "1": 6,
+      "2": 49
+    },
+    "b": {
+      "0": [
+        10
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/shared/const/friendListMock.ts": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/friendListMock.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 30
+        },
+        "end": {
+          "line": 57,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 18
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/shared/const/detailsDataMock.ts": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/detailsDataMock.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 31
+        },
+        "end": {
+          "line": 14,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 18
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/shared/const/tabsDataMock.ts": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/tabsDataMock.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 28
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 18
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/shared/const/photoGaleryMock.ts": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/photoGaleryMock.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 9,
+          "column": 31
+        },
+        "end": {
+          "line": 18,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 18
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/shared/const/detailsMock.ts": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/detailsMock.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 40
+        },
+        "end": {
+          "line": 18,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 18
+    },
+    "f": {},
+    "b": {}
   },
   "D:/Work/Projects/DSpot/friends_app/src/components/Button/styles.tsx": {
     "path": "D:/Work/Projects/DSpot/friends_app/src/components/Button/styles.tsx",
@@ -1431,45 +2368,45 @@
     },
     "branchMap": {},
     "s": {
-      "0": 13,
-      "1": 13,
-      "2": 49,
-      "3": 49,
-      "4": 49,
-      "5": 13,
-      "6": 49,
-      "7": 49,
-      "8": 49,
-      "9": 13,
-      "10": 49,
-      "11": 49,
-      "12": 13,
-      "13": 49,
-      "14": 49,
-      "15": 49,
-      "16": 49,
-      "17": 49,
-      "18": 49,
-      "19": 49,
-      "20": 49
+      "0": 22,
+      "1": 22,
+      "2": 61,
+      "3": 61,
+      "4": 61,
+      "5": 22,
+      "6": 61,
+      "7": 61,
+      "8": 61,
+      "9": 22,
+      "10": 61,
+      "11": 61,
+      "12": 22,
+      "13": 61,
+      "14": 61,
+      "15": 61,
+      "16": 61,
+      "17": 61,
+      "18": 61,
+      "19": 61,
+      "20": 61
     },
     "f": {
-      "0": 49,
-      "1": 49,
-      "2": 49,
-      "3": 49,
-      "4": 49,
-      "5": 49,
-      "6": 49,
-      "7": 49,
-      "8": 49,
-      "9": 49,
-      "10": 49,
-      "11": 49,
-      "12": 49,
-      "13": 49,
-      "14": 49,
-      "15": 49
+      "0": 61,
+      "1": 61,
+      "2": 61,
+      "3": 61,
+      "4": 61,
+      "5": 61,
+      "6": 61,
+      "7": 61,
+      "8": 61,
+      "9": 61,
+      "10": 61,
+      "11": 61,
+      "12": 61,
+      "13": 61,
+      "14": 61,
+      "15": 61
     },
     "b": {}
   },
@@ -1613,20 +2550,299 @@
       }
     },
     "s": {
-      "0": 104,
-      "1": 13,
-      "2": 49,
-      "3": 13,
-      "4": 13,
-      "5": 26
+      "0": 176,
+      "1": 22,
+      "2": 61,
+      "3": 22,
+      "4": 22,
+      "5": 44
     },
     "f": {
-      "0": 26,
-      "1": 49
+      "0": 44,
+      "1": 61
     },
     "b": {
       "0": [
-        13
+        22
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/Status/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Status/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 15,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 31
+        },
+        "end": {
+          "line": 6,
+          "column": 60
+        }
+      },
+      "2": {
+        "start": {
+          "line": 15,
+          "column": 20
+        },
+        "end": {
+          "line": 15,
+          "column": 49
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 38
+          },
+          "end": {
+            "line": 3,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 31
+          },
+          "end": {
+            "line": 6,
+            "column": 60
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 60
+          },
+          "end": {
+            "line": 6,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 20
+          },
+          "end": {
+            "line": 15,
+            "column": 49
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 17,
+      "1": 44,
+      "2": 44
+    },
+    "f": {
+      "0": 44,
+      "1": 44
+    },
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/Status/Status.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Status/Status.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 12,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 2
+        },
+        "end": {
+          "line": 12,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 36
+        },
+        "end": {
+          "line": 5,
+          "column": 40
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 68
+          },
+          "end": {
+            "line": 12,
+            "column": 2
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 26
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 2
+          },
+          "end": {
+            "line": 6,
+            "column": null
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 2
+            },
+            "end": {
+              "line": 6,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 2
+            },
+            "end": {
+              "line": 6,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 119,
+      "1": 17,
+      "2": 44,
+      "3": 17,
+      "4": 17
+    },
+    "f": {
+      "0": 17,
+      "1": 44
+    },
+    "b": {
+      "0": [
+        17
+      ],
+      "1": [
+        44,
+        44
       ]
     }
   },
@@ -1865,998 +3081,31 @@
       }
     },
     "s": {
-      "0": 126,
-      "1": 18,
-      "2": 129,
-      "3": 18,
-      "4": 18
+      "0": 147,
+      "1": 21,
+      "2": 230,
+      "3": 21,
+      "4": 21
     },
     "f": {
-      "0": 18,
-      "1": 129
+      "0": 21,
+      "1": 230
     },
     "b": {
       "0": [
-        18
+        21
       ],
       "1": [
-        6,
-        123
+        14,
+        216
       ],
       "2": [
-        6,
+        14,
         3
       ],
       "3": [
-        123,
-        96
-      ]
-    }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/Tab/Tab.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Tab/Tab.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 0
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 9,
-          "column": 7
-        },
-        "end": {
-          "line": 20,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 10,
-          "column": 2
-        },
-        "end": {
-          "line": 11,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 20,
-          "column": 2
-        },
-        "end": {
-          "line": 20,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 9,
-          "column": 30
-        },
-        "end": {
-          "line": 9,
-          "column": 34
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 9,
-            "column": 7
-          },
-          "end": {
-            "line": 9,
-            "column": 30
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 73
-          },
-          "end": {
-            "line": 20,
-            "column": 2
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 0
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 10,
-            "column": 2
-          },
-          "end": {
-            "line": 10,
-            "column": null
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 10,
-              "column": 2
-            },
-            "end": {
-              "line": 10,
-              "column": null
-            }
-          },
-          {
-            "start": {
-              "line": 10,
-              "column": 2
-            },
-            "end": {
-              "line": 10,
-              "column": null
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 56,
-      "1": 8,
-      "2": 41,
-      "3": 8,
-      "4": 8
-    },
-    "f": {
-      "0": 8,
-      "1": 41
-    },
-    "b": {
-      "0": [
-        8
-      ],
-      "1": [
-        41,
-        41
-      ]
-    }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/Availability/Availability.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Availability/Availability.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 7,
-          "column": 7
-        },
-        "end": {
-          "line": 21,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 12,
-          "column": 2
-        },
-        "end": {
-          "line": 13,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 21,
-          "column": 2
-        },
-        "end": {
-          "line": 21,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 7,
-          "column": 48
-        },
-        "end": {
-          "line": 7,
-          "column": 52
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 7,
-            "column": 7
-          },
-          "end": {
-            "line": 7,
-            "column": 48
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 11,
-            "column": 0
-          },
-          "end": {
-            "line": 21,
-            "column": 2
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 26
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 2
-          },
-          "end": {
-            "line": 8,
-            "column": null
-          }
-        },
-        "type": "default-arg",
-        "locations": [
-          {
-            "start": {
-              "line": 8,
-              "column": 2
-            },
-            "end": {
-              "line": 8,
-              "column": null
-            }
-          }
-        ]
-      },
-      "2": {
-        "loc": {
-          "start": {
-            "line": 12,
-            "column": 2
-          },
-          "end": {
-            "line": 12,
-            "column": null
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 12,
-              "column": 2
-            },
-            "end": {
-              "line": 12,
-              "column": null
-            }
-          },
-          {
-            "start": {
-              "line": 12,
-              "column": 2
-            },
-            "end": {
-              "line": 12,
-              "column": null
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 77,
-      "1": 11,
-      "2": 33,
-      "3": 11,
-      "4": 11
-    },
-    "f": {
-      "0": 11,
-      "1": 33
-    },
-    "b": {
-      "0": [
-        11
-      ],
-      "1": [
-        28
-      ],
-      "2": [
-        33,
-        3
-      ]
-    }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/Status/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Status/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 7
-        },
-        "end": {
-          "line": 15,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 6,
-          "column": 31
-        },
-        "end": {
-          "line": 6,
-          "column": 60
-        }
-      },
-      "2": {
-        "start": {
-          "line": 15,
-          "column": 20
-        },
-        "end": {
-          "line": 15,
-          "column": 49
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 3,
-            "column": 38
-          },
-          "end": {
-            "line": 3,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 6,
-            "column": 31
-          },
-          "end": {
-            "line": 6,
-            "column": 60
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 6,
-            "column": 60
-          },
-          "end": {
-            "line": 6,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 15,
-            "column": 20
-          },
-          "end": {
-            "line": 15,
-            "column": 49
-          }
-        }
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 10,
-      "1": 33,
-      "2": 33
-    },
-    "f": {
-      "0": 33,
-      "1": 33
-    },
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/Status/Status.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Status/Status.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 5,
-          "column": 7
-        },
-        "end": {
-          "line": 12,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 6,
-          "column": 2
-        },
-        "end": {
-          "line": 7,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 12,
-          "column": 2
-        },
-        "end": {
-          "line": 12,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 5,
-          "column": 36
-        },
-        "end": {
-          "line": 5,
-          "column": 40
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 5,
-            "column": 7
-          },
-          "end": {
-            "line": 5,
-            "column": 36
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 68
-          },
-          "end": {
-            "line": 12,
-            "column": 2
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 26
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 6,
-            "column": 2
-          },
-          "end": {
-            "line": 6,
-            "column": null
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 6,
-              "column": 2
-            },
-            "end": {
-              "line": 6,
-              "column": null
-            }
-          },
-          {
-            "start": {
-              "line": 6,
-              "column": 2
-            },
-            "end": {
-              "line": 6,
-              "column": null
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 70,
-      "1": 10,
-      "2": 33,
-      "3": 10,
-      "4": 10
-    },
-    "f": {
-      "0": 10,
-      "1": 33
-    },
-    "b": {
-      "0": [
-        10
-      ],
-      "1": [
-        33,
-        33
-      ]
-    }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/Img/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Img/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 7
-        },
-        "end": {
-          "line": 8,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 8,
-          "column": 31
-        },
-        "end": {
-          "line": 8,
-          "column": 60
-        }
-      },
-      "2": {
-        "start": {
-          "line": 11,
-          "column": 7
-        },
-        "end": {
-          "line": 11,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 3,
-            "column": 33
-          },
-          "end": {
-            "line": 3,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 31
-          },
-          "end": {
-            "line": 8,
-            "column": 60
-          }
-        }
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 13,
-      "1": 58,
-      "2": 13
-    },
-    "f": {
-      "0": 58
-    },
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/Img/Img.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Img/Img.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 5,
-          "column": 7
-        },
-        "end": {
-          "line": 16,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 6,
-          "column": 2
-        },
-        "end": {
-          "line": 7,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 6,
-          "column": 2
-        },
-        "end": {
-          "line": 6,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 16,
-          "column": 2
-        },
-        "end": {
-          "line": 16,
-          "column": null
-        }
-      },
-      "5": {
-        "start": {
-          "line": 5,
-          "column": 30
-        },
-        "end": {
-          "line": 5,
-          "column": 34
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 5,
-            "column": 7
-          },
-          "end": {
-            "line": 5,
-            "column": 30
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 56
-          },
-          "end": {
-            "line": 16,
-            "column": 2
-          }
-        }
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 6,
-            "column": 2
-          },
-          "end": {
-            "line": 6,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 6,
-            "column": 2
-          },
-          "end": {
-            "line": 6,
-            "column": null
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 26
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 6,
-            "column": 2
-          },
-          "end": {
-            "line": 6,
-            "column": null
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 6,
-              "column": 2
-            },
-            "end": {
-              "line": 6,
-              "column": null
-            }
-          },
-          {
-            "start": {
-              "line": 6,
-              "column": 2
-            },
-            "end": {
-              "line": 6,
-              "column": null
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 91,
-      "1": 13,
-      "2": 58,
-      "3": 0,
-      "4": 13,
-      "5": 13
-    },
-    "f": {
-      "0": 13,
-      "1": 58,
-      "2": 0
-    },
-    "b": {
-      "0": [
-        13
-      ],
-      "1": [
-        116,
-        92
+        216,
+        186
       ]
     }
   },
@@ -2911,11 +3160,11 @@
     },
     "branchMap": {},
     "s": {
-      "0": 14,
-      "1": 55
+      "0": 17,
+      "1": 67
     },
     "f": {
-      "0": 55
+      "0": 67
     },
     "b": {}
   },
@@ -3084,23 +3333,23 @@
       }
     },
     "s": {
-      "0": 98,
-      "1": 14,
-      "2": 55,
-      "3": 14,
-      "4": 14
+      "0": 119,
+      "1": 17,
+      "2": 67,
+      "3": 17,
+      "4": 17
     },
     "f": {
-      "0": 14,
-      "1": 55
+      "0": 17,
+      "1": 67
     },
     "b": {
       "0": [
-        14
+        17
       ],
       "1": [
-        55,
-        15
+        67,
+        24
       ]
     }
   },
@@ -3191,16 +3440,16 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 8,
-      "2": 15
+      "0": 17,
+      "1": 17,
+      "2": 39
     },
     "f": {
-      "0": 15
+      "0": 39
     },
     "b": {
       "0": [
-        15
+        39
       ]
     }
   },
@@ -3316,19 +3565,19 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 8,
-      "2": 7
+      "0": 17,
+      "1": 17,
+      "2": 16
     },
     "f": {
-      "0": 7
+      "0": 16
     },
     "b": {
       "0": [
-        7
+        16
       ],
       "1": [
-        7
+        16
       ]
     }
   },
@@ -3419,16 +3668,16 @@
       }
     },
     "s": {
-      "0": 8,
-      "1": 8,
-      "2": 1
+      "0": 17,
+      "1": 17,
+      "2": 9
     },
     "f": {
-      "0": 1
+      "0": 9
     },
     "b": {
       "0": [
-        1
+        9
       ]
     }
   },
@@ -3509,13 +3758,13 @@
     "fnMap": {},
     "branchMap": {},
     "s": {
-      "0": 7,
-      "1": 7,
-      "2": 7,
-      "3": 7,
-      "4": 7,
-      "5": 7,
-      "6": 7
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16,
+      "5": 16,
+      "6": 16
     },
     "f": {},
     "b": {}
@@ -3788,31 +4037,803 @@
       }
     },
     "s": {
-      "0": 42,
-      "1": 6,
-      "2": 27,
-      "3": 0,
-      "4": 6,
-      "5": 6
+      "0": 105,
+      "1": 15,
+      "2": 30,
+      "3": 1,
+      "4": 15,
+      "5": 15
     },
     "f": {
-      "0": 6,
-      "1": 27,
-      "2": 0
+      "0": 15,
+      "1": 30,
+      "2": 1
     },
     "b": {
       "0": [
-        6
+        15
       ],
       "1": [
-        27,
-        27
+        30,
+        30
       ],
       "2": [
-        54,
+        60,
         0
       ],
       "3": [
+        1,
+        1
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/FriendCard/SkeletonFriendCard/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendCard/SkeletonFriendCard/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 6,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 15,
+          "column": 7
+        },
+        "end": {
+          "line": 18,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 21,
+          "column": 7
+        },
+        "end": {
+          "line": 23,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 26,
+          "column": 7
+        },
+        "end": {
+          "line": 30,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 13,
+      "1": 13,
+      "2": 13,
+      "3": 13,
+      "4": 13
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/FriendCard/SkeletonFriendCard/SkeletonFriendCard.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendCard/SkeletonFriendCard/SkeletonFriendCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 7
+        },
+        "end": {
+          "line": 25,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 13,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 25,
+          "column": 2
+        },
+        "end": {
+          "line": 25,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 35
+        },
+        "end": {
+          "line": 12,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 12,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 7
+          },
+          "end": {
+            "line": 25,
+            "column": 2
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 26
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 91,
+      "1": 13,
+      "2": 13,
+      "3": 13,
+      "4": 13
+    },
+    "f": {
+      "0": 13,
+      "1": 13
+    },
+    "b": {
+      "0": [
+        13
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/FriendList/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendList/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 4,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 7
+        },
+        "end": {
+          "line": 14,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 20
+        },
+        "end": {
+          "line": 14,
+          "column": 39
+        }
+      },
+      "3": {
+        "start": {
+          "line": 18,
+          "column": 7
+        },
+        "end": {
+          "line": 18,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 48
+          },
+          "end": {
+            "line": 13,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 20
+          },
+          "end": {
+            "line": 14,
+            "column": 39
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 12,
+      "1": 12,
+      "2": 2,
+      "3": 12
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/FriendList/FriendList.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendList/FriendList.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 65,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 19,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 33,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 27,
+          "column": 10
+        },
+        "end": {
+          "line": 28,
+          "column": null
+        }
+      },
+      "7": {
+        "start": {
+          "line": 37,
+          "column": 2
+        },
+        "end": {
+          "line": 41,
+          "column": null
+        }
+      },
+      "8": {
+        "start": {
+          "line": 38,
+          "column": 4
+        },
+        "end": {
+          "line": 39,
+          "column": null
+        }
+      },
+      "9": {
+        "start": {
+          "line": 45,
+          "column": 2
+        },
+        "end": {
+          "line": 46,
+          "column": null
+        }
+      },
+      "10": {
+        "start": {
+          "line": 48,
+          "column": 8
+        },
+        "end": {
+          "line": 49,
+          "column": null
+        }
+      },
+      "11": {
+        "start": {
+          "line": 48,
+          "column": 8
+        },
+        "end": {
+          "line": 48,
+          "column": null
+        }
+      },
+      "12": {
+        "start": {
+          "line": 65,
+          "column": 2
+        },
+        "end": {
+          "line": 65,
+          "column": null
+        }
+      },
+      "13": {
+        "start": {
+          "line": 7,
+          "column": 44
+        },
+        "end": {
+          "line": 7,
+          "column": 48
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 44
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 0
+          },
+          "end": {
+            "line": 65,
+            "column": 2
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 4
+          },
+          "end": {
+            "line": 24,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 4
+          },
+          "end": {
+            "line": 30,
+            "column": null
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 45,
+            "column": 2
+          },
+          "end": {
+            "line": 45,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 45,
+            "column": 2
+          },
+          "end": {
+            "line": 60,
+            "column": null
+          }
+        }
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 48,
+            "column": 8
+          },
+          "end": {
+            "line": 48,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 8
+          },
+          "end": {
+            "line": 48,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 26
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 2
+          },
+          "end": {
+            "line": 19,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 14,
+              "column": 2
+            },
+            "end": {
+              "line": 19,
+              "column": null
+            }
+          }
+        ]
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 2
+          },
+          "end": {
+            "line": 33,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 23,
+              "column": 2
+            },
+            "end": {
+              "line": 33,
+              "column": null
+            }
+          }
+        ]
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 2
+          },
+          "end": {
+            "line": 41,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 2
+            },
+            "end": {
+              "line": 41,
+              "column": null
+            }
+          }
+        ]
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 2
+          },
+          "end": {
+            "line": 37,
+            "column": null
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 2
+            },
+            "end": {
+              "line": 37,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 2
+            },
+            "end": {
+              "line": 37,
+              "column": null
+            }
+          }
+        ]
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 8
+          },
+          "end": {
+            "line": 48,
+            "column": null
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 48,
+              "column": 8
+            },
+            "end": {
+              "line": 48,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 48,
+              "column": 8
+            },
+            "end": {
+              "line": 48,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 84,
+      "1": 12,
+      "2": 10,
+      "3": 2,
+      "4": 8,
+      "5": 3,
+      "6": 12,
+      "7": 5,
+      "8": 1,
+      "9": 4,
+      "10": 24,
+      "11": 0,
+      "12": 12,
+      "13": 12
+    },
+    "f": {
+      "0": 12,
+      "1": 10,
+      "2": 12,
+      "3": 24,
+      "4": 0
+    },
+    "b": {
+      "0": [
+        12
+      ],
+      "1": [
+        2
+      ],
+      "2": [
+        3
+      ],
+      "3": [
+        1
+      ],
+      "4": [
+        5,
+        5
+      ],
+      "5": [
         0,
         0
       ]
@@ -3889,13 +4910,13 @@
     },
     "branchMap": {},
     "s": {
-      "0": 3,
-      "1": 3,
-      "2": 26,
-      "3": 3
+      "0": 11,
+      "1": 11,
+      "2": 62,
+      "3": 11
     },
     "f": {
-      "0": 26
+      "0": 62
     },
     "b": {}
   },
@@ -4200,1481 +5221,37 @@
       }
     },
     "s": {
-      "0": 21,
-      "1": 3,
-      "2": 6,
-      "3": 15,
-      "4": 26,
-      "5": 3,
-      "6": 3
-    },
-    "f": {
-      "0": 3,
-      "1": 6,
-      "2": 15,
-      "3": 26
-    },
-    "b": {
-      "0": [
-        3
-      ],
-      "1": [
-        6,
-        6
-      ],
-      "2": [
-        26,
-        26
-      ],
-      "3": [
-        26,
-        15
-      ]
-    }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/shared/const/friendListMock.ts": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/friendListMock.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 8,
-          "column": 30
-        },
-        "end": {
-          "line": 57,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 16
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/shared/const/detailsDataMock.ts": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/detailsDataMock.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 31
-        },
-        "end": {
-          "line": 14,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 16
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/shared/const/tabsDataMock.ts": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/tabsDataMock.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 28
-        },
-        "end": {
-          "line": 10,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 16
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/shared/const/photoGaleryMock.ts": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/const/photoGaleryMock.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 9,
-          "column": 31
-        },
-        "end": {
-          "line": 18,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 16
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/PhotoGalery/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/PhotoGalery/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 7
-        },
-        "end": {
-          "line": 3,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 19,
-          "column": 7
-        },
-        "end": {
-          "line": 19,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 2,
-      "1": 2
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/PhotoGalery/PhotoGalery.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/PhotoGalery/PhotoGalery.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 0
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 7,
-          "column": 7
-        },
-        "end": {
-          "line": 20,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 8,
-          "column": 2
-        },
-        "end": {
-          "line": 9,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 8,
-          "column": 2
-        },
-        "end": {
-          "line": 11,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 8,
-          "column": 2
-        },
-        "end": {
-          "line": 8,
-          "column": null
-        }
-      },
-      "5": {
-        "start": {
-          "line": 20,
-          "column": 2
-        },
-        "end": {
-          "line": 20,
-          "column": null
-        }
-      },
-      "6": {
-        "start": {
-          "line": 7,
-          "column": 46
-        },
-        "end": {
-          "line": 7,
-          "column": 50
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 7,
-            "column": 7
-          },
-          "end": {
-            "line": 7,
-            "column": 46
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 7,
-            "column": 68
-          },
-          "end": {
-            "line": 20,
-            "column": 2
-          }
-        }
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 8,
-            "column": 2
-          },
-          "end": {
-            "line": 8,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 2
-          },
-          "end": {
-            "line": 11,
-            "column": null
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 0
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 0
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 14,
-      "1": 2,
-      "2": 3,
-      "3": 24,
-      "4": 0,
-      "5": 2,
-      "6": 2
-    },
-    "f": {
-      "0": 2,
-      "1": 3,
-      "2": 24
-    },
-    "b": {
-      "0": [
-        2
-      ]
-    }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/FriendCard/SkeletonFriendCard/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendCard/SkeletonFriendCard/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 5,
-          "column": 7
-        },
-        "end": {
-          "line": 6,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 9,
-          "column": 0
-        },
-        "end": {
-          "line": 12,
-          "column": null
-        }
-      },
-      "2": {
-        "start": {
-          "line": 15,
-          "column": 7
-        },
-        "end": {
-          "line": 18,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 21,
-          "column": 7
-        },
-        "end": {
-          "line": 23,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 26,
-          "column": 7
-        },
-        "end": {
-          "line": 30,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 5,
-      "1": 5,
-      "2": 5,
-      "3": 5,
-      "4": 5
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/FriendCard/SkeletonFriendCard/SkeletonFriendCard.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendCard/SkeletonFriendCard/SkeletonFriendCard.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 12,
-          "column": 7
-        },
-        "end": {
-          "line": 25,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 13,
-          "column": 2
-        },
-        "end": {
-          "line": 14,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 25,
-          "column": 2
-        },
-        "end": {
-          "line": 25,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 12,
-          "column": 35
-        },
-        "end": {
-          "line": 12,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 12,
-            "column": 7
-          },
-          "end": {
-            "line": 12,
-            "column": 35
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 12,
-            "column": 7
-          },
-          "end": {
-            "line": 25,
-            "column": 2
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 26
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 35,
-      "1": 5,
-      "2": 13,
-      "3": 5,
-      "4": 5
-    },
-    "f": {
-      "0": 5,
-      "1": 13
-    },
-    "b": {
-      "0": [
-        5
-      ]
-    }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/FriendList/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendList/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 4,
-          "column": 7
-        },
-        "end": {
-          "line": 4,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 13,
-          "column": 7
-        },
-        "end": {
-          "line": 14,
-          "column": null
-        }
-      },
-      "2": {
-        "start": {
-          "line": 14,
-          "column": 20
-        },
-        "end": {
-          "line": 14,
-          "column": 39
-        }
-      },
-      "3": {
-        "start": {
-          "line": 18,
-          "column": 7
-        },
-        "end": {
-          "line": 18,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 13,
-            "column": 48
-          },
-          "end": {
-            "line": 13,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 14,
-            "column": 20
-          },
-          "end": {
-            "line": 14,
-            "column": 39
-          }
-        }
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 4,
-      "1": 4,
-      "2": 2,
-      "3": 4
-    },
-    "f": {
-      "0": 2
-    },
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/FriendList/FriendList.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendList/FriendList.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 7,
-          "column": 7
-        },
-        "end": {
-          "line": 64,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 13,
-          "column": 2
-        },
-        "end": {
-          "line": 18,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 14,
-          "column": 4
-        },
-        "end": {
-          "line": 15,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 22,
-          "column": 2
-        },
-        "end": {
-          "line": 32,
-          "column": null
-        }
-      },
-      "5": {
-        "start": {
-          "line": 23,
-          "column": 4
-        },
-        "end": {
-          "line": 24,
-          "column": null
-        }
-      },
-      "6": {
-        "start": {
-          "line": 26,
-          "column": 10
-        },
-        "end": {
-          "line": 27,
-          "column": null
-        }
-      },
-      "7": {
-        "start": {
-          "line": 36,
-          "column": 2
-        },
-        "end": {
-          "line": 40,
-          "column": null
-        }
-      },
-      "8": {
-        "start": {
-          "line": 37,
-          "column": 4
-        },
-        "end": {
-          "line": 38,
-          "column": null
-        }
-      },
-      "9": {
-        "start": {
-          "line": 44,
-          "column": 2
-        },
-        "end": {
-          "line": 45,
-          "column": null
-        }
-      },
-      "10": {
-        "start": {
-          "line": 47,
-          "column": 8
-        },
-        "end": {
-          "line": 48,
-          "column": null
-        }
-      },
-      "11": {
-        "start": {
-          "line": 47,
-          "column": 8
-        },
-        "end": {
-          "line": 47,
-          "column": null
-        }
-      },
-      "12": {
-        "start": {
-          "line": 64,
-          "column": 2
-        },
-        "end": {
-          "line": 64,
-          "column": null
-        }
-      },
-      "13": {
-        "start": {
-          "line": 7,
-          "column": 44
-        },
-        "end": {
-          "line": 7,
-          "column": 48
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 7,
-            "column": 7
-          },
-          "end": {
-            "line": 7,
-            "column": 44
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 12,
-            "column": 0
-          },
-          "end": {
-            "line": 64,
-            "column": 2
-          }
-        }
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 23,
-            "column": 4
-          },
-          "end": {
-            "line": 23,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 23,
-            "column": 4
-          },
-          "end": {
-            "line": 29,
-            "column": null
-          }
-        }
-      },
-      "3": {
-        "name": "(anonymous_3)",
-        "decl": {
-          "start": {
-            "line": 44,
-            "column": 2
-          },
-          "end": {
-            "line": 44,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 44,
-            "column": 2
-          },
-          "end": {
-            "line": 59,
-            "column": null
-          }
-        }
-      },
-      "4": {
-        "name": "(anonymous_4)",
-        "decl": {
-          "start": {
-            "line": 47,
-            "column": 8
-          },
-          "end": {
-            "line": 47,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 47,
-            "column": 8
-          },
-          "end": {
-            "line": 47,
-            "column": null
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 26
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 13,
-            "column": 2
-          },
-          "end": {
-            "line": 18,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 13,
-              "column": 2
-            },
-            "end": {
-              "line": 18,
-              "column": null
-            }
-          }
-        ]
-      },
-      "2": {
-        "loc": {
-          "start": {
-            "line": 22,
-            "column": 2
-          },
-          "end": {
-            "line": 32,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 22,
-              "column": 2
-            },
-            "end": {
-              "line": 32,
-              "column": null
-            }
-          }
-        ]
-      },
-      "3": {
-        "loc": {
-          "start": {
-            "line": 36,
-            "column": 2
-          },
-          "end": {
-            "line": 40,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 36,
-              "column": 2
-            },
-            "end": {
-              "line": 40,
-              "column": null
-            }
-          }
-        ]
-      },
-      "4": {
-        "loc": {
-          "start": {
-            "line": 47,
-            "column": 8
-          },
-          "end": {
-            "line": 47,
-            "column": null
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 47,
-              "column": 8
-            },
-            "end": {
-              "line": 47,
-              "column": null
-            }
-          },
-          {
-            "start": {
-              "line": 47,
-              "column": 8
-            },
-            "end": {
-              "line": 47,
-              "column": null
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 28,
-      "1": 4,
-      "2": 10,
-      "3": 2,
-      "4": 8,
-      "5": 3,
-      "6": 12,
-      "7": 5,
-      "8": 1,
-      "9": 4,
-      "10": 24,
-      "11": 0,
-      "12": 4,
-      "13": 4
-    },
-    "f": {
-      "0": 4,
-      "1": 10,
+      "0": 77,
+      "1": 11,
       "2": 12,
-      "3": 24,
-      "4": 0
+      "3": 33,
+      "4": 62,
+      "5": 11,
+      "6": 11
+    },
+    "f": {
+      "0": 11,
+      "1": 12,
+      "2": 33,
+      "3": 62
     },
     "b": {
       "0": [
-        4
+        11
       ],
       "1": [
-        2
+        12,
+        12
       ],
       "2": [
-        3
+        62,
+        62
       ],
       "3": [
-        1
-      ],
-      "4": [
-        0,
-        0
+        62,
+        33
       ]
     }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/GalleryModal/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/GalleryModal/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 5,
-          "column": 7
-        },
-        "end": {
-          "line": 5,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 15,
-          "column": 7
-        },
-        "end": {
-          "line": 19,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 1,
-      "1": 1
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/GalleryModal/GalleryModal.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/GalleryModal/GalleryModal.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 41
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 8,
-          "column": 7
-        },
-        "end": {
-          "line": 19,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 9,
-          "column": 2
-        },
-        "end": {
-          "line": 10,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 11,
-          "column": 6
-        },
-        "end": {
-          "line": 11,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 19,
-          "column": 2
-        },
-        "end": {
-          "line": 19,
-          "column": null
-        }
-      },
-      "5": {
-        "start": {
-          "line": 8,
-          "column": 48
-        },
-        "end": {
-          "line": 8,
-          "column": 52
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 41
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 41
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 8,
-            "column": 7
-          },
-          "end": {
-            "line": 8,
-            "column": 48
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 72
-          },
-          "end": {
-            "line": 19,
-            "column": 2
-          }
-        }
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 11,
-            "column": 6
-          },
-          "end": {
-            "line": 11,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 11,
-            "column": 6
-          },
-          "end": {
-            "line": 11,
-            "column": null
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 41
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 41
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 7,
-      "1": 1,
-      "2": 1,
-      "3": 0,
-      "4": 1,
-      "5": 1
-    },
-    "f": {
-      "0": 1,
-      "1": 1,
-      "2": 0
-    },
-    "b": {
-      "0": [
-        1
-      ]
-    }
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/ScrollRow/ScrollRow.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/ScrollRow/ScrollRow.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 4,
-          "column": 7
-        },
-        "end": {
-          "line": 20,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 7,
-          "column": 30
-        },
-        "end": {
-          "line": 7,
-          "column": null
-        }
-      },
-      "2": {
-        "start": {
-          "line": 13,
-          "column": 27
-        },
-        "end": {
-          "line": 13,
-          "column": 46
-        }
-      },
-      "3": {
-        "start": {
-          "line": 20,
-          "column": 27
-        },
-        "end": {
-          "line": 20,
-          "column": 56
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 4,
-            "column": 35
-          },
-          "end": {
-            "line": 4,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 7,
-            "column": 30
-          },
-          "end": {
-            "line": 7,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 8,
-            "column": 53
-          },
-          "end": {
-            "line": 8,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 13,
-            "column": 27
-          },
-          "end": {
-            "line": 13,
-            "column": 46
-          }
-        }
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 13,
-            "column": 46
-          },
-          "end": {
-            "line": 13,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 20,
-            "column": 27
-          },
-          "end": {
-            "line": 20,
-            "column": 56
-          }
-        }
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 7,
-      "1": 29,
-      "2": 29,
-      "3": 29
-    },
-    "f": {
-      "0": 29,
-      "1": 29,
-      "2": 29
-    },
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/TabData/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/TabData/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 5,
-          "column": 7
-        },
-        "end": {
-          "line": 5,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 10,
-          "column": 7
-        },
-        "end": {
-          "line": 10,
-          "column": null
-        }
-      },
-      "2": {
-        "start": {
-          "line": 16,
-          "column": 7
-        },
-        "end": {
-          "line": 16,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 22,
-          "column": 7
-        },
-        "end": {
-          "line": 22,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 6,
-      "1": 6,
-      "2": 6,
-      "3": 6
-    },
-    "f": {},
-    "b": {}
   },
   "D:/Work/Projects/DSpot/friends_app/src/shared/hooks/useHandleTabs.ts": {
     "path": "D:/Work/Projects/DSpot/friends_app/src/shared/hooks/useHandleTabs.ts",
@@ -5859,25 +5436,722 @@
       }
     },
     "s": {
-      "0": 6,
-      "1": 14,
-      "2": 14,
-      "3": 1,
-      "4": 14,
-      "5": 14,
-      "6": 14
+      "0": 8,
+      "1": 23,
+      "2": 23,
+      "3": 2,
+      "4": 23,
+      "5": 23,
+      "6": 23
     },
     "f": {
-      "0": 14,
-      "1": 1,
-      "2": 14
+      "0": 23,
+      "1": 2,
+      "2": 23
     },
     "b": {
       "0": [
-        14,
+        23,
         0
       ]
     }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/SectionContainer/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/SectionContainer/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 9
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/SectionContainer/SectionContainer.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/SectionContainer/SectionContainer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 10,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 56
+        },
+        "end": {
+          "line": 5,
+          "column": 60
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 56
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": 2
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 26
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 2
+          },
+          "end": {
+            "line": 9,
+            "column": 9
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 9,
+              "column": 2
+            },
+            "end": {
+              "line": 9,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 9,
+              "column": 2
+            },
+            "end": {
+              "line": 9,
+              "column": 9
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 63,
+      "1": 9,
+      "2": 12,
+      "3": 9,
+      "4": 9
+    },
+    "f": {
+      "0": 9,
+      "1": 12
+    },
+    "b": {
+      "0": [
+        9
+      ],
+      "1": [
+        12,
+        12
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/ScrollRow/ScrollRow.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/ScrollRow/ScrollRow.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 20,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 30
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 13,
+          "column": 27
+        },
+        "end": {
+          "line": 13,
+          "column": 46
+        }
+      },
+      "3": {
+        "start": {
+          "line": 20,
+          "column": 27
+        },
+        "end": {
+          "line": 20,
+          "column": 56
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 35
+          },
+          "end": {
+            "line": 4,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 30
+          },
+          "end": {
+            "line": 7,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 53
+          },
+          "end": {
+            "line": 8,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 27
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 46
+          },
+          "end": {
+            "line": 13,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 27
+          },
+          "end": {
+            "line": 20,
+            "column": 56
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 47,
+      "2": 47,
+      "3": 47
+    },
+    "f": {
+      "0": 47,
+      "1": 47,
+      "2": 47
+    },
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/Section/Section.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Section/Section.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 9
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/Tab/Tab.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Tab/Tab.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 9,
+          "column": 7
+        },
+        "end": {
+          "line": 20,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 30
+        },
+        "end": {
+          "line": 9,
+          "column": 34
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 73
+          },
+          "end": {
+            "line": 20,
+            "column": 2
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 2
+          },
+          "end": {
+            "line": 10,
+            "column": null
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 10,
+              "column": 2
+            },
+            "end": {
+              "line": 10,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 10,
+              "column": 2
+            },
+            "end": {
+              "line": 10,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 70,
+      "1": 10,
+      "2": 59,
+      "3": 10,
+      "4": 10
+    },
+    "f": {
+      "0": 10,
+      "1": 59
+    },
+    "b": {
+      "0": [
+        10
+      ],
+      "1": [
+        59,
+        59
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/Row/Row.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Row/Row.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 4,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 8
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/FriendDetail/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendDetail/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 7
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 20,
+          "column": 7
+        },
+        "end": {
+          "line": 20,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 31,
+          "column": 7
+        },
+        "end": {
+          "line": 31,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 37,
+          "column": 7
+        },
+        "end": {
+          "line": 37,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 43,
+          "column": 7
+        },
+        "end": {
+          "line": 43,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
+          "line": 48,
+          "column": 7
+        },
+        "end": {
+          "line": 48,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/TabData/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/TabData/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 5,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 7
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 19,
+          "column": 7
+        },
+        "end": {
+          "line": 19,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 25,
+          "column": 7
+        },
+        "end": {
+          "line": 25,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8
+    },
+    "f": {},
+    "b": {}
   },
   "D:/Work/Projects/DSpot/friends_app/src/components/TabData/TabData.tsx": {
     "path": "D:/Work/Projects/DSpot/friends_app/src/components/TabData/TabData.tsx",
@@ -6069,329 +6343,23 @@
     },
     "branchMap": {},
     "s": {
-      "0": 6,
-      "1": 14,
-      "2": 14,
-      "3": 14,
-      "4": 38,
-      "5": 1,
-      "6": 6,
-      "7": 12,
-      "8": 6
+      "0": 8,
+      "1": 23,
+      "2": 23,
+      "3": 23,
+      "4": 56,
+      "5": 2,
+      "6": 8,
+      "7": 16,
+      "8": 8
     },
     "f": {
-      "0": 14,
-      "1": 38,
-      "2": 1,
-      "3": 6
-    },
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/Row/Row.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/Row/Row.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 4,
-          "column": 7
-        },
-        "end": {
-          "line": 4,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 2
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/FriendDetail/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendDetail/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 7,
-          "column": 7
-        },
-        "end": {
-          "line": 7,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 20,
-          "column": 7
-        },
-        "end": {
-          "line": 20,
-          "column": null
-        }
-      },
-      "2": {
-        "start": {
-          "line": 31,
-          "column": 7
-        },
-        "end": {
-          "line": 31,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 37,
-          "column": 7
-        },
-        "end": {
-          "line": 37,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 43,
-          "column": 7
-        },
-        "end": {
-          "line": 43,
-          "column": null
-        }
-      },
-      "5": {
-        "start": {
-          "line": 48,
-          "column": 7
-        },
-        "end": {
-          "line": 48,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 2,
-      "1": 2,
+      "0": 23,
+      "1": 56,
       "2": 2,
-      "3": 2,
-      "4": 2,
-      "5": 2
+      "3": 8
     },
-    "f": {},
     "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/SectionContainer/styles.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/SectionContainer/styles.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 7
-        },
-        "end": {
-          "line": 3,
-          "column": null
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 3
-    },
-    "f": {},
-    "b": {}
-  },
-  "D:/Work/Projects/DSpot/friends_app/src/components/SectionContainer/SectionContainer.tsx": {
-    "path": "D:/Work/Projects/DSpot/friends_app/src/components/SectionContainer/SectionContainer.tsx",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 26
-        },
-        "end": {
-          "line": 1,
-          "column": null
-        }
-      },
-      "1": {
-        "start": {
-          "line": 5,
-          "column": 7
-        },
-        "end": {
-          "line": 10,
-          "column": 2
-        }
-      },
-      "2": {
-        "start": {
-          "line": 9,
-          "column": 2
-        },
-        "end": {
-          "line": 9,
-          "column": null
-        }
-      },
-      "3": {
-        "start": {
-          "line": 10,
-          "column": 2
-        },
-        "end": {
-          "line": 10,
-          "column": null
-        }
-      },
-      "4": {
-        "start": {
-          "line": 5,
-          "column": 56
-        },
-        "end": {
-          "line": 5,
-          "column": 60
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        }
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 5,
-            "column": 7
-          },
-          "end": {
-            "line": 5,
-            "column": 56
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 0
-          },
-          "end": {
-            "line": 10,
-            "column": 2
-          }
-        }
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 1,
-            "column": 26
-          },
-          "end": {
-            "line": 1,
-            "column": null
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 1,
-              "column": 26
-            },
-            "end": {
-              "line": 1,
-              "column": null
-            }
-          }
-        ]
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 2
-          },
-          "end": {
-            "line": 9,
-            "column": 9
-          }
-        },
-        "type": "binary-expr",
-        "locations": [
-          {
-            "start": {
-              "line": 9,
-              "column": 2
-            },
-            "end": {
-              "line": 9,
-              "column": 9
-            }
-          },
-          {
-            "start": {
-              "line": 9,
-              "column": 2
-            },
-            "end": {
-              "line": 9,
-              "column": 9
-            }
-          }
-        ]
-      }
-    },
-    "s": {
-      "0": 21,
-      "1": 3,
-      "2": 4,
-      "3": 3,
-      "4": 3
-    },
-    "f": {
-      "0": 3,
-      "1": 4
-    },
-    "b": {
-      "0": [
-        3
-      ],
-      "1": [
-        4,
-        4
-      ]
-    }
   },
   "D:/Work/Projects/DSpot/friends_app/src/components/FriendDetail/FriendDetail.tsx": {
     "path": "D:/Work/Projects/DSpot/friends_app/src/components/FriendDetail/FriendDetail.tsx",
@@ -6593,27 +6561,1423 @@
       }
     },
     "s": {
-      "0": 14,
-      "1": 2,
-      "2": 3,
-      "3": 2,
-      "4": 2
+      "0": 56,
+      "1": 8,
+      "2": 11,
+      "3": 8,
+      "4": 8
     },
     "f": {
-      "0": 2,
-      "1": 3
+      "0": 8,
+      "1": 11
     },
     "b": {
       "0": [
-        2
+        8
       ],
       "1": [
-        6,
+        22,
         0
       ],
       "2": [
-        6,
+        22,
         0
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/ModalContainer/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/ModalContainer/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 7
+        },
+        "end": {
+          "line": 3,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 11
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/ModalContainer/ModalContainer.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/ModalContainer/ModalContainer.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 26
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 7,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 6,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 5,
+          "column": 43
+        },
+        "end": {
+          "line": 5,
+          "column": 47
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 43
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 58
+          },
+          "end": {
+            "line": 7,
+            "column": 2
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 26
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 26
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 77,
+      "1": 11,
+      "2": 5,
+      "3": 11,
+      "4": 11
+    },
+    "f": {
+      "0": 11,
+      "1": 5
+    },
+    "b": {
+      "0": [
+        11
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/GalleryModal/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/GalleryModal/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 7
+        },
+        "end": {
+          "line": 5,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 15,
+          "column": 7
+        },
+        "end": {
+          "line": 19,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 9,
+      "1": 9
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/GalleryModal/GalleryModal.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/GalleryModal/GalleryModal.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 41
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 7
+        },
+        "end": {
+          "line": 24,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 24,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
+          "line": 8,
+          "column": 48
+        },
+        "end": {
+          "line": 8,
+          "column": 52
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 41
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 41
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 48
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 72
+          },
+          "end": {
+            "line": 24,
+            "column": 2
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 6
+          },
+          "end": {
+            "line": 11,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 6
+          },
+          "end": {
+            "line": 11,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 41
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 41
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 63,
+      "1": 9,
+      "2": 2,
+      "3": 1,
+      "4": 9,
+      "5": 9
+    },
+    "f": {
+      "0": 9,
+      "1": 2,
+      "2": 1
+    },
+    "b": {
+      "0": [
+        9
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/FallBack/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FallBack/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 4,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 9
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/components/FallBack/FallBack.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/components/FallBack/FallBack.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 40
+        },
+        "end": {
+          "line": 1,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 3,
+          "column": 24
+        },
+        "end": {
+          "line": 5,
+          "column": 2
+        }
+      },
+      "2": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 4,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 5,
+          "column": 2
+        },
+        "end": {
+          "line": 3,
+          "column": 21
+        }
+      },
+      "4": {
+        "start": {
+          "line": 3,
+          "column": 21
+        },
+        "end": {
+          "line": 3,
+          "column": 24
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 1,
+            "column": 40
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 40
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 30
+          },
+          "end": {
+            "line": 5,
+            "column": 2
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 40
+          },
+          "end": {
+            "line": 1,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 1,
+              "column": 40
+            },
+            "end": {
+              "line": 1,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 63,
+      "1": 9,
+      "2": 1,
+      "3": 9,
+      "4": 9
+    },
+    "f": {
+      "0": 9,
+      "1": 1
+    },
+    "b": {
+      "0": [
+        9
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/shared/hooks/useGalleyModal.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/hooks/useGalleyModal.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 31
+        },
+        "end": {
+          "line": 31,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 37
+        },
+        "end": {
+          "line": 5,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 24
+        },
+        "end": {
+          "line": 6,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 24
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 9,
+          "column": 19
+        },
+        "end": {
+          "line": 12,
+          "column": null
+        }
+      },
+      "5": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      },
+      "7": {
+        "start": {
+          "line": 14,
+          "column": 18
+        },
+        "end": {
+          "line": 17,
+          "column": null
+        }
+      },
+      "8": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": null
+        }
+      },
+      "9": {
+        "start": {
+          "line": 16,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": null
+        }
+      },
+      "10": {
+        "start": {
+          "line": 19,
+          "column": 22
+        },
+        "end": {
+          "line": 25,
+          "column": null
+        }
+      },
+      "11": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 23,
+          "column": null
+        }
+      },
+      "12": {
+        "start": {
+          "line": 28,
+          "column": 20
+        },
+        "end": {
+          "line": 28,
+          "column": null
+        }
+      },
+      "13": {
+        "start": {
+          "line": 30,
+          "column": 2
+        },
+        "end": {
+          "line": 30,
+          "column": null
+        }
+      },
+      "14": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 5,
+          "column": 31
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 31
+          },
+          "end": {
+            "line": 5,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 37
+          },
+          "end": {
+            "line": 31,
+            "column": 2
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 19
+          },
+          "end": {
+            "line": 9,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 60
+          },
+          "end": {
+            "line": 12,
+            "column": null
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 18
+          },
+          "end": {
+            "line": 14,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 24
+          },
+          "end": {
+            "line": 17,
+            "column": null
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 4
+          },
+          "end": {
+            "line": 20,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 6
+          },
+          "end": {
+            "line": 23,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 20
+          },
+          "end": {
+            "line": 28,
+            "column": null
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 28,
+              "column": 20
+            },
+            "end": {
+              "line": 28,
+              "column": 29
+            }
+          },
+          {
+            "start": {
+              "line": 28,
+              "column": 29
+            },
+            "end": {
+              "line": 28,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 8,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 1,
+      "6": 1,
+      "7": 8,
+      "8": 1,
+      "9": 1,
+      "10": 8,
+      "11": 1,
+      "12": 8,
+      "13": 8,
+      "14": 8
+    },
+    "f": {
+      "0": 8,
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "b": {
+      "0": [
+        8,
+        1
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/shared/utils/getInfoDetails.ts": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/shared/utils/getInfoDetails.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 30
+        },
+        "end": {
+          "line": 24,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 6,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 21,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 30
+          },
+          "end": {
+            "line": 5,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 49
+          },
+          "end": {
+            "line": 24,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 22,
+            "column": null
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 2
+            },
+            "end": {
+              "line": 22,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 3,
+      "2": 3,
+      "3": 3,
+      "4": 3
+    },
+    "f": {
+      "0": 3
+    },
+    "b": {
+      "0": [
+        3
+      ]
+    }
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/pages/Details/hooks/useGetInfo.ts": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/pages/Details/hooks/useGetInfo.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 26
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 21
+        },
+        "end": {
+          "line": 7,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 35
+        },
+        "end": {
+          "line": 7,
+          "column": 57
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 26
+          },
+          "end": {
+            "line": 6,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 73
+          },
+          "end": {
+            "line": 10,
+            "column": null
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 29
+          },
+          "end": {
+            "line": 7,
+            "column": 35
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 35
+          },
+          "end": {
+            "line": 7,
+            "column": 57
+          }
+        }
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 8,
+      "2": 3,
+      "3": 8
+    },
+    "f": {
+      "0": 8,
+      "1": 3
+    },
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/pages/Details/styles.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/pages/Details/styles.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 7
+        },
+        "end": {
+          "line": 4,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 7
+        },
+        "end": {
+          "line": 8,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 2,
+      "1": 2
+    },
+    "f": {},
+    "b": {}
+  },
+  "D:/Work/Projects/DSpot/friends_app/src/pages/Details/Details.tsx": {
+    "path": "D:/Work/Projects/DSpot/friends_app/src/pages/Details/Details.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 17,
+          "column": 7
+        },
+        "end": {
+          "line": 52,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 17,
+          "column": 55
+        },
+        "end": {
+          "line": 17,
+          "column": null
+        }
+      },
+      "2": {
+        "start": {
+          "line": 18,
+          "column": 31
+        },
+        "end": {
+          "line": 18,
+          "column": null
+        }
+      },
+      "3": {
+        "start": {
+          "line": 19,
+          "column": 10
+        },
+        "end": {
+          "line": 19,
+          "column": null
+        }
+      },
+      "4": {
+        "start": {
+          "line": 20,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 30
+        }
+      },
+      "5": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": null
+        }
+      },
+      "6": {
+        "start": {
+          "line": 24,
+          "column": 8
+        },
+        "end": {
+          "line": 24,
+          "column": null
+        }
+      },
+      "7": {
+        "start": {
+          "line": 40,
+          "column": 12
+        },
+        "end": {
+          "line": 40,
+          "column": null
+        }
+      },
+      "8": {
+        "start": {
+          "line": 52,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": null
+        }
+      },
+      "9": {
+        "start": {
+          "line": 17,
+          "column": 38
+        },
+        "end": {
+          "line": 17,
+          "column": 42
+        }
+      },
+      "10": {
+        "start": {
+          "line": 20,
+          "column": 30
+        },
+        "end": {
+          "line": 20,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 7
+          },
+          "end": {
+            "line": 17,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 49
+          },
+          "end": {
+            "line": 52,
+            "column": 2
+          }
+        }
+      },
+      "1": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 8
+          },
+          "end": {
+            "line": 24,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 8
+          },
+          "end": {
+            "line": 24,
+            "column": null
+          }
+        }
+      },
+      "2": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 40,
+            "column": 12
+          },
+          "end": {
+            "line": 40,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 40,
+            "column": 12
+          },
+          "end": {
+            "line": 40,
+            "column": null
+          }
+        }
+      },
+      "3": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 52,
+            "column": 2
+          },
+          "end": {
+            "line": 52,
+            "column": null
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 2
+          },
+          "end": {
+            "line": 20,
+            "column": null
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 6
+          },
+          "end": {
+            "line": 48,
+            "column": null
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 48,
+              "column": 6
+            },
+            "end": {
+              "line": 48,
+              "column": null
+            }
+          },
+          {
+            "start": {
+              "line": 48,
+              "column": 6
+            },
+            "end": {
+              "line": 48,
+              "column": null
+            }
+          }
+        ]
+      }
+    },
+    "s": {
+      "0": 2,
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 8,
+      "6": 0,
+      "7": 1,
+      "8": 2,
+      "9": 4,
+      "10": 2
+    },
+    "f": {
+      "0": 8,
+      "1": 0,
+      "2": 1,
+      "3": 2
+    },
+    "b": {
+      "0": [
+        8,
+        1
       ]
     }
   }

@@ -11,12 +11,15 @@ export const TabContainer = styled(ScrollRow)`
   width: 100%;
   margin: 0;
   padding-bottom: 10px;
+  & > * {
+    padding: 0;
+  }
 `;
 
 export const Ul = styled.ul`
   display: flex;
   flex-wrap: nowrap;
-  display: 100%;
+  width: 100%;
 `;
 
 export const TabCardRow = styled(ScrollRow)`

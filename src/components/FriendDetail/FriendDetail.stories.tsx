@@ -43,13 +43,13 @@ export const DefaultFriendDetails = Template.bind({});
 
 export const ClickTab = Template.bind({});
 
-ClickTab.play = ({ canvasElement }) => {
+ClickTab.play = async ({ canvasElement }) => {
   const canvas = within(canvasElement);
   const getElement = (text: string) => canvas.getByText(text);
 
   const tabToClick = getElement('Photos');
 
   userEvent.click(tabToClick);
-  const tabContent = canvas.getByText(/tab1 content/i);
-  expect(tabContent).toBeInTheDocument();
+  const tabContent = await canvas.findByText(/tab2 content/i);
+  await expect(tabContent).toBeInTheDocument();
 };

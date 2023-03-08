@@ -7,6 +7,7 @@ module.exports = {
     'storybook-addon-designs',
     '@storybook/addon-interactions',
     '@storybook/addon-coverage',
+    "storybook-addon-react-router-v6"
   ],
   framework: '@storybook/react',
   features: {
