@@ -1,15 +1,12 @@
-import { useNavigate } from 'react-router-dom';
-import { useCallback } from 'react';
 import { Section, SectionContainer, Text, FriendList } from '../../components';
 import { FriendsContainer, TextRow, CardRow } from './styles';
 import { useFriends, useDetails } from './hooks';
+import { useAppNavigation } from '../../shared/hooks';
 
 export const Home = () => {
   const { friends, isLoading, isError } = useFriends();
   const { isDisabled } = useDetails();
-  const navigate = useNavigate();
-
-  const handleClick = useCallback(() => navigate('/details'), [navigate]);
+  const { navigation } = useAppNavigation();
 
   return (
     <Section>
@@ -24,7 +21,7 @@ export const Home = () => {
           <CardRow>
             <FriendList
               data={friends}
-              onClick={handleClick}
+              onClick={() => navigation('/details')}
               isLoading={isLoading}
               isError={isError}
               isDisabled={isDisabled}

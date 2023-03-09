@@ -1,8 +1,9 @@
 import { FC } from 'react';
+import { FriendCard } from '../FriendCard';
+import { InfoMessage } from '../InfoMessage';
+import { LoadingFriendCard } from '../LoadingFriendCard';
+import { Ul } from './styles';
 import type { FriendListProps } from './types';
-import { FriendCard, SkeletonFriendCard } from '../FriendCard';
-import { Text } from '../Text';
-import { Ul, MessageContainer, WarningIcon } from './styles';
 
 export const FriendList: FC<FriendListProps> = ({
   data,
@@ -12,41 +13,22 @@ export const FriendList: FC<FriendListProps> = ({
   isDisabled,
 }) => {
   if (isError) {
-    return (
-      <MessageContainer>
-        <WarningIcon />
-        <Text>Sorry, something went wrong.</Text>
-      </MessageContainer>
-    );
+    return <InfoMessage error info="Sorry, something went wrong" />;
   }
 
   if (isLoading) {
-    return (
-      <Ul>
-        {[1, 2, 3, 4].map((number) => {
-          return (
-            <li key={number}>
-              <SkeletonFriendCard />
-            </li>
-          );
-        })}
-      </Ul>
-    );
+    return <LoadingFriendCard />;
   }
 
   if (data && data.length === 0) {
-    return (
-      <MessageContainer>
-        <Text>Your friend list is empty.</Text>
-      </MessageContainer>
-    );
+    return <InfoMessage info="Your friend list is empty" />;
   }
 
   return (
     <Ul>
       {data.map((item) => {
         return (
-          <li key={item.id}>
+          <li aria-label="friend-card" key={item.id}>
             <FriendCard
               active={item.available}
               src={item.img}
@@ -54,7 +36,7 @@ export const FriendList: FC<FriendListProps> = ({
               firstName={item.first_name}
               lastName={item.last_name}
               text={item.status}
-              onClick={() => onClick && onClick(item.id)}
+              onClick={() => onClick && onClick()}
               disabled={isDisabled(item.id)}
             />
           </li>

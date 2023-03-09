@@ -17,3 +17,5 @@ export { DetailInfo } from './DetailInfo';
 export { ModalContainer } from './ModalContainer';
 export { GalleryModal } from './GalleryModal';
 export { FallBack } from './FallBack';
+export { InfoMessage } from './InfoMessage';
+export { LoadingFriendCard } from './LoadingFriendCard';

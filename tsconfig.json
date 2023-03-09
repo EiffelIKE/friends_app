@@ -19,7 +19,7 @@
   "include": [
     ".storybook",
     ".eslintrc.cjs",
-    "src", 
+    "src",
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

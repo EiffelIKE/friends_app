@@ -1,7 +1,8 @@
 import { createContext, useContext } from 'react';
 
+import type { DefaultTheme } from 'styled-components';
 import { initialTheme } from './initial-theme';
-import type { FriendTheme, Theme } from './types';
+import type { FriendTheme } from './types';
 
 export const actions = {
   UPDATE_THEME: 'UPDATE_THEME',
@@ -12,7 +13,7 @@ type ActionType = (typeof actions)[Keys];
 
 interface Actions {
   type: ActionType;
-  payload: Theme;
+  payload: DefaultTheme;
 }
 
 export const ThemeContext = createContext<FriendTheme>(initialTheme);

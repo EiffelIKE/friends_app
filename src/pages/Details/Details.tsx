@@ -1,7 +1,6 @@
 import { FC } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { HiArrowLeft } from 'react-icons/hi';
-import { useGalleryModal } from '../../shared/hooks';
+import { useGalleryModal, useAppNavigation } from '../../shared/hooks';
 import { useGetInfo } from './hooks';
 import {
   Section,
@@ -17,7 +16,8 @@ import type { DetailsProps } from './types';
 export const Details: FC<DetailsProps> = ({ data }) => {
   const { setPhoto, openModal, renderModal } = useGalleryModal();
   const { detailInfo } = useGetInfo(data);
-  const navigate = useNavigate();
+  const { navigation } = useAppNavigation();
+
   return (
     <Section>
       <DetailsContainer>
@@ -25,7 +25,7 @@ export const Details: FC<DetailsProps> = ({ data }) => {
           aria-label="back button"
           variant="secondary"
           className="icon"
-          onClick={() => navigate('/')}
+          onClick={() => navigation('/')}
         >
           <HiArrowLeft />
         </BackButton>

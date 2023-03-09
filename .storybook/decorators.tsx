@@ -39,8 +39,8 @@ export const withBackground: DecoratorFn = (StoryFn) => {
 };
 
 export const GlobalDecorators = [ 
+  mswDecorator,
   setUpProviders, 
-  withBackground, 
-  mswDecorator, 
+  withBackground,  
   withGalleryNode
 ]
