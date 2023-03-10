@@ -1,5 +1,4 @@
-import { Section, SectionContainer, Text, FriendList } from '../../components';
-import { FriendsContainer, TextRow, CardRow } from './styles';
+import { Section, HomeContainer } from '../../components';
 import { useFriends, useDetails } from './hooks';
 import { useAppNavigation } from '../../shared/hooks';
 
@@ -10,25 +9,14 @@ export const Home = () => {
 
   return (
     <Section>
-      <SectionContainer>
-        <FriendsContainer>
-          <TextRow>
-            <Text isGray isTitle>
-              {' '}
-              Friends
-            </Text>
-          </TextRow>
-          <CardRow>
-            <FriendList
-              data={friends}
-              onClick={() => navigation('/details')}
-              isLoading={isLoading}
-              isError={isError}
-              isDisabled={isDisabled}
-            />
-          </CardRow>
-        </FriendsContainer>
-      </SectionContainer>
+      <HomeContainer
+        title="Friends"
+        data={friends}
+        isError={isError}
+        isDisabled={isDisabled}
+        isLoading={isLoading}
+        onClick={() => navigation('/details')}
+      />
     </Section>
   );
 };

@@ -1,29 +1,14 @@
 import { FC } from 'react';
 import { FriendCard } from '../FriendCard';
-import { InfoMessage } from '../InfoMessage';
-import { LoadingFriendCard } from '../LoadingFriendCard';
+
 import { Ul } from './styles';
 import type { FriendListProps } from './types';
 
 export const FriendList: FC<FriendListProps> = ({
   data,
   onClick,
-  isLoading,
-  isError,
   isDisabled,
 }) => {
-  if (isError) {
-    return <InfoMessage error info="Sorry, something went wrong" />;
-  }
-
-  if (isLoading) {
-    return <LoadingFriendCard />;
-  }
-
-  if (data && data.length === 0) {
-    return <InfoMessage info="Your friend list is empty" />;
-  }
-
   return (
     <Ul>
       {data.map((item) => {

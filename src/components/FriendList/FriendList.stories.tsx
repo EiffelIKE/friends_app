@@ -20,62 +20,25 @@ const withContainer: DecoratorFn = (StoryFn) => {
 export default {
   title: 'Components/Molecules/FriendList',
   component: FriendList,
-  args: {
-    data: friendListMock,
-    isDisabled: () => false,
-  },
   decorators: [withContainer],
 } as ComponentMeta<typeof FriendList>;
 
 const Template: ComponentStory<typeof FriendList> = ({
   data,
   onClick,
-  isLoading,
-  isError,
   isDisabled,
-}) => (
-  <FriendList
-    data={data}
-    onClick={onClick}
-    isLoading={isLoading}
-    isError={isError}
-    isDisabled={isDisabled}
-  />
-);
+}) => <FriendList data={data} onClick={onClick} isDisabled={isDisabled} />;
 
 export const DefaultState = Template.bind({});
 
 DefaultState.args = {
-  isLoading: false,
-  isError: false,
+  data: friendListMock,
+  isDisabled: () => false,
 };
+
 DefaultState.play = async ({ canvasElement }) => {
   const canvas = within(canvasElement);
   const cards = await canvas.findAllByRole('listitem', { name: 'friend-card' });
 
   expect(cards).toHaveLength(6);
-};
-
-export const LoadingState = Template.bind({});
-
-LoadingState.args = {
-  data: [],
-  isLoading: true,
-  isError: false,
-};
-
-export const ErrorState = Template.bind({});
-
-ErrorState.args = {
-  data: [],
-  isLoading: false,
-  isError: true,
-};
-
-export const EmptyState = Template.bind({});
-
-EmptyState.args = {
-  data: [],
-  isLoading: false,
-  isError: false,
 };

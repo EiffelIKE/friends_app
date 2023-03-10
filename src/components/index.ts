@@ -19,3 +19,5 @@ export { GalleryModal } from './GalleryModal';
 export { FallBack } from './FallBack';
 export { InfoMessage } from './InfoMessage';
 export { LoadingFriendCard } from './LoadingFriendCard';
+export { DetailsContainer } from './DetailsContainer';
+export { HomeContainer } from './HomeContainer';

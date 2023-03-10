@@ -17,6 +17,7 @@
   &.no-wrap {
     text-overflow: ellipsis;
     white-space: nowrap;
+    padding-bottom: 5px;
     overflow: hidden;
   }
 }
