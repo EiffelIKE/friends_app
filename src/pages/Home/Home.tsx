@@ -1,37 +1,22 @@
-import { useNavigate } from 'react-router-dom';
-import { useCallback } from 'react';
-import { Section, SectionContainer, Text, FriendList } from '../../components';
-import { FriendsContainer, TextRow, CardRow } from './styles';
+import { Section, HomeContainer } from '../../components';
 import { useFriends, useDetails } from './hooks';
+import { useAppNavigation } from '../../shared/hooks';
 
 export const Home = () => {
   const { friends, isLoading, isError } = useFriends();
   const { isDisabled } = useDetails();
-  const navigate = useNavigate();
-
-  const handleClick = useCallback(() => navigate('/details'), [navigate]);
+  const { navigation } = useAppNavigation();
 
   return (
     <Section>
-      <SectionContainer>
-        <FriendsContainer>
-          <TextRow>
-            <Text isGray isTitle>
-              {' '}
-              Friends
-            </Text>
-          </TextRow>
-          <CardRow>
-            <FriendList
-              data={friends}
-              onClick={handleClick}
-              isLoading={isLoading}
-              isError={isError}
-              isDisabled={isDisabled}
-            />
-          </CardRow>
-        </FriendsContainer>
-      </SectionContainer>
+      <HomeContainer
+        title="Friends"
+        data={friends}
+        isError={isError}
+        isDisabled={isDisabled}
+        isLoading={isLoading}
+        onClick={() => navigation('/details')}
+      />
     </Section>
   );
 };

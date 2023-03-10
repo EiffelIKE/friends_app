@@ -41,6 +41,12 @@ const Template: ComponentStory<typeof FriendDetail> = ({
 
 export const DefaultFriendDetails = Template.bind({});
 
+export const WithOverFlowName = Template.bind({});
+
+WithOverFlowName.args = {
+  lastName: 'SomeReallyBigLastNameHere',
+};
+
 export const ClickTab = Template.bind({});
 
 ClickTab.play = async ({ canvasElement }) => {

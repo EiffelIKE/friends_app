@@ -52,6 +52,9 @@ export const InfoContainer = styled(Col)`
     margin-left: 0;
     gap: 8px;
   }
+  @media screen and (max-width: 490px) {
+    width: 100%;
+  }
 `;
 
 export const ButtonContainer = styled(Col)`

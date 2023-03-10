@@ -30,7 +30,6 @@ export const withBackground: DecoratorFn = (StoryFn) => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        overflow: 'hidden',
       }}
     >
       <StoryFn />
@@ -39,8 +38,8 @@ export const withBackground: DecoratorFn = (StoryFn) => {
 };
 
 export const GlobalDecorators = [ 
+  mswDecorator,
   setUpProviders, 
-  withBackground, 
-  mswDecorator, 
+  withBackground,  
   withGalleryNode
 ]
