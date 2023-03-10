@@ -1,0 +1,1 @@
+export { LoadingFriendCard } from './LoadingFriendCard';
