@@ -7,7 +7,7 @@
     "dev": "vite --mode=develop",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "chromatic": "npx chromatic --exit-zero-on-changes --project-token=6515ea744185",
+    "chromatic": "npx chromatic --exit-zero-on-changes",
     "storybook": "start-storybook -p 6006 -s public",
     "test-storybook": "test-storybook",
     "coverage": "test-storybook --coverage",
