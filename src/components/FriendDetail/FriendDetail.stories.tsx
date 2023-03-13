@@ -47,6 +47,13 @@ WithOverFlowName.args = {
   lastName: 'SomeReallyBigLastNameHere',
 };
 
+export const NoName = Template.bind({});
+
+NoName.args = {
+  lastName: undefined,
+  firstName: undefined,
+};
+
 export const ClickTab = Template.bind({});
 
 ClickTab.play = async ({ canvasElement }) => {
@@ -57,5 +64,5 @@ ClickTab.play = async ({ canvasElement }) => {
 
   userEvent.click(tabToClick);
   const tabContent = await canvas.findByText(/tab2 content/i);
-  await expect(tabContent).toBeInTheDocument();
+  expect(tabContent).toBeInTheDocument();
 };

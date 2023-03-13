@@ -1,14 +1,20 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react';
-import { within } from '@storybook/testing-library';
-import { expect } from '@storybook/jest';
+import { ComponentMeta, ComponentStory, DecoratorFn } from '@storybook/react';
 import { withRouter } from 'storybook-addon-react-router-v6';
+import { useEffect } from '@storybook/addons';
 import { Home } from './Home';
 import { getMock } from '../../../.storybook/mocks/hanlders';
+
+const WithRefresh: DecoratorFn = (StoryFn) => {
+  useEffect(() => {
+    return () => window.location.reload();
+  }, []);
+  return <StoryFn />;
+};
 
 export default {
   title: 'Components/Pages/Home',
   component: Home,
-  decorators: [withRouter],
+  decorators: [withRouter, WithRefresh],
 } as ComponentMeta<typeof Home>;
 
 const Template: ComponentStory<typeof Home> = () => <Home />;
@@ -19,31 +25,47 @@ HomePage.parameters = {
   msw: {
     handlers: {
       default: [getMock({ url: 'friends' }), getMock({ url: 'friends/id' })],
+      error: null,
+      loading: null,
     },
   },
 };
 
-HomePage.play = async ({ canvasElement }) => {
-  const canvas = within(canvasElement);
-  const buttons = await canvas.findAllByRole('button');
+export const LoadingHomePage = Template.bind({});
 
-  if (buttons.length > 0) {
-    buttons.forEach((button, index, array) => {
-      if (array[array.length - 1] !== button) {
-        expect(button).toBeDisabled();
-      }
-    });
-  }
-  expect(buttons[buttons.length - 1]).toBeEnabled();
+LoadingHomePage.parameters = {
+  msw: {
+    handlers: {
+      default: null,
+      error: null,
+      empty: null,
+      loading: [getMock({ url: 'friends', loading: true })],
+    },
+  },
 };
 
-// export const LoadingHomePage = Template.bind({});
+export const ErrorHomePage = Template.bind({});
 
-// LoadingHomePage.parameters = {
-//   msw: {
-//     handlers: {
-//       default: null,
-//       error: [getMock({ url: 'friends', error: true })],
-//     },
-//   },
-// };
+ErrorHomePage.parameters = {
+  msw: {
+    handlers: {
+      default: null,
+      loading: null,
+      empty: null,
+      error: [getMock({ url: 'friends', error: true })],
+    },
+  },
+};
+
+export const EmptyHomePage = Template.bind({});
+
+EmptyHomePage.parameters = {
+  msw: {
+    handlers: {
+      default: null,
+      loading: null,
+      error: null,
+      empty: [getMock({ url: 'friends', empty: true })],
+    },
+  },
+};

@@ -23,6 +23,8 @@ export const FriendCard: FC<FriendCardProps> = ({
   disabled,
   onClick,
 }) => {
+  const fullName = `${firstName || ''} ${lastName || ''}`;
+
   return (
     <FriendCardContainer>
       <Col md="1">
@@ -32,8 +34,8 @@ export const FriendCard: FC<FriendCardProps> = ({
         </FriendImgContainer>
       </Col>
       <InfoContainer xs="6" md="8">
-        <Text className="no-wrap">{`${firstName || ''} ${
-          lastName || ''
+        <Text className="no-wrap">{`${
+          fullName.length > 1 ? fullName : 'Unknow'
         }`}</Text>
         <Status text={text} />
       </InfoContainer>

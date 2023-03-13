@@ -28,7 +28,7 @@ export const DetailInfo: FC<DetailInfoProps> = ({
                   })}
                 >
                   <Text isGray>{`${entrie[0]}:`}</Text>
-                  <Text>{entrie[1]}</Text>
+                  <Text className="info-text">{entrie[1]}</Text>
                 </Data>
               );
             })}

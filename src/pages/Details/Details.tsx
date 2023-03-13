@@ -1,5 +1,6 @@
 import { FC } from 'react';
-import { useGalleryModal, useAppNavigation } from '../../shared/hooks';
+import { useNavigate } from 'react-router-dom';
+import { useGalleryModal } from '../../shared/hooks';
 import { useGetInfo } from './hooks';
 import {
   Section,
@@ -12,9 +13,9 @@ import { tabsDataMock as tabs } from '../../shared/const';
 import type { DetailsProps } from './types';
 
 export const Details: FC<DetailsProps> = ({ data }) => {
-  const { setPhoto, openModal, renderModal } = useGalleryModal();
+  const { setPhoto, renderModal } = useGalleryModal();
   const { detailInfo } = useGetInfo(data);
-  const { navigation } = useAppNavigation();
+  const navigate = useNavigate();
 
   return (
     <Section>
@@ -25,7 +26,7 @@ export const Details: FC<DetailsProps> = ({ data }) => {
         active={data.available}
         status={data.statuses[0]}
         tabs={tabs}
-        onBack={() => navigation('/')}
+        onBack={() => navigate('/')}
         tabsChildren={[
           <DetailInfo key={0} data={detailInfo} />,
           <PhotoGalery
@@ -35,7 +36,7 @@ export const Details: FC<DetailsProps> = ({ data }) => {
           />,
         ]}
       />
-      {openModal && renderModal()}
+      {renderModal()}
     </Section>
   );
 };

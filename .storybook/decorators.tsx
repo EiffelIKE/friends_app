@@ -21,7 +21,7 @@ export const setUpProviders: DecoratorFn = (StoryFn) => {
   )
 }
 
-export const withBackground: DecoratorFn = (StoryFn) => {
+export const withMinHeigth: DecoratorFn = (StoryFn) => {
   return (
     <div
       style={{
@@ -40,6 +40,6 @@ export const withBackground: DecoratorFn = (StoryFn) => {
 export const GlobalDecorators = [ 
   mswDecorator,
   setUpProviders, 
-  withBackground,  
+  withMinHeigth,  
   withGalleryNode
 ]

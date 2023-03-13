@@ -23,6 +23,7 @@ export const FriendDetail: FC<FriendsDetailsProps> = ({
   tabs,
   tabsChildren,
 }) => {
+  const fullName = `${firstName || ''} ${lastName || ''}`;
   return (
     <SectionContainer>
       <DetailsContainer>
@@ -36,9 +37,9 @@ export const FriendDetail: FC<FriendsDetailsProps> = ({
               <StyledAvilable size="lg" active={active} />
             </ImageContainer>
             <InfoContainer>
-              <Text isTitle className="no-wrap">{`${firstName || ''} ${
-                lastName || ''
-              }`}</Text>
+              <Text isTitle className="no-wrap">
+                {fullName.length > 1 ? fullName : 'Unknow'}
+              </Text>
               <Status text={status} />
             </InfoContainer>
           </InfoRow>
