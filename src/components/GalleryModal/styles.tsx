@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import { Button } from '../Button';
+import { CloseButton } from '../CloseButton';
 import { scaleOut } from '../../shared/animations';
 
-export const CloseButton = styled(Button)`
+export const StyledCloseButton = styled(CloseButton)`
   position: absolute;
   top: 60px;
   right: 60px;

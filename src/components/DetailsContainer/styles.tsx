@@ -1,15 +1,15 @@
 import styled from 'styled-components';
-import { Button } from '../Button';
+import { BackButton } from '../BackButton';
 
 export const RelativeContainer = styled.div`
   position: relative;
 `;
 
-export const BackButton = styled(Button)`
+export const StyledBackButton = styled(BackButton)`
   position: absolute;
   left: -120px;
   @media screen and (max-width: 900px) {
-    left: 83%;
+    left: 81%;
     top: 5.8vh;
   }
 `;

@@ -3,14 +3,14 @@ import { within, userEvent } from '@storybook/testing-library';
 import { expect } from '@storybook/jest';
 import { FriendDetail } from './FriendDetail';
 import { friendListMock, tabsDataMock } from '../../shared/const';
-import { TabsChildren } from '../TabData/TabData.stories';
+import { DefaultTabDada } from '../TabData/TabData.stories';
 
 export default {
   title: 'Components/Molecules/FriendDetail',
   component: FriendDetail,
   args: {
     tabs: tabsDataMock,
-    tabsChildren: TabsChildren,
+    tabsChildren: DefaultTabDada.args?.tabChildrens,
     src: friendListMock[0].img,
     firstName: friendListMock[0].first_name,
     lastName: friendListMock[0].last_name,
@@ -40,6 +40,16 @@ const Template: ComponentStory<typeof FriendDetail> = ({
 );
 
 export const DefaultFriendDetails = Template.bind({});
+
+DefaultFriendDetails.args = {
+  tabs: tabsDataMock,
+  tabsChildren: DefaultTabDada.args?.tabChildrens,
+  src: friendListMock[0].img,
+  firstName: friendListMock[0].first_name,
+  lastName: friendListMock[0].last_name,
+  active: friendListMock[0].available,
+  status: friendListMock[0].status,
+};
 
 export const WithOverFlowName = Template.bind({});
 

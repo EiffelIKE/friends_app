@@ -1,6 +1,4 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import { HiArrowLeft } from 'react-icons/hi';
-import { IoIosClose } from 'react-icons/io';
 import { Button } from './Button';
 
 export default {
@@ -78,44 +76,4 @@ Disabled.args = {
   variant: 'main',
   children: 'Details',
   disabled: true,
-};
-
-export const WithBackIconSecondary = Template.bind({});
-
-WithBackIconSecondary.args = {
-  variant: 'secondary',
-  children: <HiArrowLeft />,
-  disabled: false,
-  className: 'icon',
-};
-
-WithBackIconSecondary.argTypes = {
-  children: {
-    control: { table: { disable: true } },
-  },
-};
-
-WithBackIconSecondary.parameters = {
-  design: {
-    type: 'figma',
-    url: 'https://www.figma.com/file/Pe9VVOGr2sOvfOcnzzAbvX/Dev-Test?node-id=1%3A1526&t=T3drl8qP0uDfuMcb-1',
-  },
-};
-
-export const WithCloseIconDark = Template.bind({});
-
-WithCloseIconDark.args = {
-  variant: 'dark',
-  children: <IoIosClose />,
-  disabled: false,
-  className: 'icon',
-};
-
-WithCloseIconDark.argTypes = {
-  ...WithBackIconSecondary.argTypes,
-};
-
-WithCloseIconDark.parameters = {
-  ...WithBackIconSecondary.parameters,
-  ...DarkOpacity.parameters,
 };

@@ -21,3 +21,5 @@ export { InfoMessage } from './InfoMessage';
 export { LoadingFriendCard } from './LoadingFriendCard';
 export { DetailsContainer } from './DetailsContainer';
 export { HomeContainer } from './HomeContainer';
+export { BackButton } from './BackButton';
+export { CloseButton } from 'react-bootstrap';
