@@ -1,5 +1,5 @@
 import { useEffect, useState, useCallback } from 'react';
-import { useLazyGetDetailsQuery } from '../../../store/slices/useDetails';
+import { useLazyGetDetailsQuery } from '../../../store/slices/useDetailsSlice';
 import type { DetailsData } from '../../../shared/types';
 import { useAppDispatch } from '../../../shared/hooks/reduxHooks';
 import { setDetails } from '../../../store/slices/detailSlice';
