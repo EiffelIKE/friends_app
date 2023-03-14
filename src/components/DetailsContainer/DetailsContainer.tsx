@@ -1,7 +1,6 @@
 import { FC } from 'react';
-import { HiArrowLeft } from 'react-icons/hi';
 import { FriendDetail } from '../FriendDetail';
-import { BackButton, RelativeContainer } from './styles';
+import { StyledBackButton, RelativeContainer } from './styles';
 import type { DetailsContainerProps } from './types';
 
 export const DetailsContainer: FC<DetailsContainerProps> = ({
@@ -16,14 +15,7 @@ export const DetailsContainer: FC<DetailsContainerProps> = ({
 }) => {
   return (
     <RelativeContainer>
-      <BackButton
-        aria-label="back button"
-        variant="secondary"
-        className="icon"
-        onClick={onBack}
-      >
-        <HiArrowLeft />
-      </BackButton>
+      <StyledBackButton onBack={onBack} />
       <FriendDetail
         src={src}
         active={active}

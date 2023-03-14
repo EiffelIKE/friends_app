@@ -6,6 +6,7 @@
   &.title {
     font-weight: 700;
     font-size: 1.625rem;
+    line-height: 31.47px;
   }
 
   &.gray {
@@ -17,7 +18,6 @@
   &.no-wrap {
     text-overflow: ellipsis;
     white-space: nowrap;
-    padding-bottom: 5px;
     overflow: hidden;
   }
 }

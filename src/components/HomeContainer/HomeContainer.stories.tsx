@@ -17,10 +17,11 @@ const Template: ComponentStory<typeof HomeContainer> = ({
   isError,
   isDisabled,
   title,
+  onClick,
 }) => (
   <HomeContainer
     data={data}
-    onClick={mockClick}
+    onClick={onClick}
     isLoading={isLoading}
     isError={isError}
     isDisabled={isDisabled}
@@ -33,17 +34,21 @@ export const DefaultHome = Template.bind({});
 DefaultHome.args = {
   title: 'Title goes here',
   ...DefaultState.args,
+  isDisabled: (id: number) => id !== 6,
+  onClick: mockClick,
 };
 
 DefaultHome.play = ({ canvasElement }) => {
   const canvas = within(canvasElement);
   const buttons = canvas.getAllByRole('button');
 
-  buttons.forEach((button) => {
-    userEvent.click(button);
+  buttons.forEach((button, index) => {
+    if (index !== 5) {
+      expect(button).toBeDisabled();
+    } else userEvent.click(button);
   });
 
-  expect(mockClick).toBeCalledTimes(6);
+  expect(mockClick).toBeCalled();
 };
 
 export const LoadingHome = Template.bind({});

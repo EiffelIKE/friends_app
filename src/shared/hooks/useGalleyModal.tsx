@@ -16,16 +16,15 @@ export const useGalleryModal = () => {
     setSrc('');
   };
 
-  const renderModal = useCallback(
-    () =>
-      createPortal(
+  const renderModal = useCallback(() => {
+    if (!!alt && !!src) {
+      return createPortal(
         <GalleryModal alt={alt} src={src} onClose={onClose} />,
         document.getElementById('gallery') as HTMLElement
-      ),
-    [alt, src]
-  );
+      );
+    }
+    return null;
+  }, [alt, src]);
 
-  const openModal = !!alt && !!src;
-
-  return { setPhoto, onClose, openModal, renderModal };
+  return { setPhoto, onClose, renderModal };
 };

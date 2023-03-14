@@ -1,3 +1,5 @@
+import { expect } from '@storybook/jest';
+import { within, userEvent } from '@storybook/testing-library';
 import { ComponentMeta, ComponentStory, DecoratorFn } from '@storybook/react';
 import styled from 'styled-components';
 import { TabData } from './TabData';
@@ -18,7 +20,7 @@ const ChildrenContainer = styled.div`
   height: 100%;
 `;
 
-export const TabsChildren = [
+const TabsChildren = [
   <ChildrenContainer key={0}>Tab1 content</ChildrenContainer>,
   <ChildrenContainer key={0}>Tab2 content</ChildrenContainer>,
 ];
@@ -46,6 +48,34 @@ const Template: ComponentStory<typeof TabData> = ({ tabs, tabChildrens }) => (
 );
 
 export const DefaultTabDada = Template.bind({});
+
+DefaultTabDada.args = {
+  tabChildrens: TabsChildren,
+};
+
+DefaultTabDada.play = async ({ canvasElement }) => {
+  const canvas = within(canvasElement);
+  const getElemetText = (text: string | RegExp) => canvas.getByText(text);
+  const findChildren = (text: string | RegExp) => canvas.findByText(text);
+  const queryELement = (text: string | RegExp) => canvas.queryByText(text);
+
+  const tab1 = getElemetText('Info');
+  const tab2 = getElemetText('Photos');
+
+  userEvent.click(tab2);
+  const children2 = await findChildren('Tab2 content');
+  expect(children2).toBeInTheDocument();
+
+  const childrenHidden1 = queryELement('Tab1 content');
+  expect(childrenHidden1).not.toBeInTheDocument();
+
+  userEvent.click(tab1);
+  const children1 = await findChildren('Tab1 content');
+  expect(children1).toBeInTheDocument();
+
+  const childrenHidden2 = queryELement('Tab2 content');
+  expect(childrenHidden2).not.toBeInTheDocument();
+};
 
 export const MoreTabsThanSons = Template.bind({});
 

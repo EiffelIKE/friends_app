@@ -5,7 +5,7 @@ import { photoGaleryMock } from '../../shared/const';
 
 const Container = styled.div`
   @media screen and (min-width: 608px) {
-    width: 608px;
+    width: 450px;
     height: 100vh;
   }
   display: grid;

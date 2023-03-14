@@ -34,6 +34,9 @@ export const Data = styled.div`
       padding-bottom: calc(28 / 608 * 100vw);
     }
   }
+  & > .info-text {
+    font-weight: 400;
+  }
 `;
 
 export const DataRow = styled.div`

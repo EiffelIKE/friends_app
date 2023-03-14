@@ -25,7 +25,7 @@ ActiveMd.args = {
 
 export const NonActiveMd = Template.bind({});
 
-ActiveMd.args = {
+NonActiveMd.args = {
   active: false,
   size: 'md',
 };

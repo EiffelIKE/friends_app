@@ -1,11 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import { Section, HomeContainer } from '../../components';
 import { useFriends, useDetails } from './hooks';
-import { useAppNavigation } from '../../shared/hooks';
 
 export const Home = () => {
   const { friends, isLoading, isError } = useFriends();
   const { isDisabled } = useDetails();
-  const { navigation } = useAppNavigation();
+  const navigate = useNavigate();
 
   return (
     <Section>
@@ -15,7 +15,7 @@ export const Home = () => {
         isError={isError}
         isDisabled={isDisabled}
         isLoading={isLoading}
-        onClick={() => navigation('/details')}
+        onClick={() => navigate('/details')}
       />
     </Section>
   );

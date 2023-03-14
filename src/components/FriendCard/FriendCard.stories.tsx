@@ -78,6 +78,13 @@ NonActiveWithDisable.args = {
   disabled: true,
 };
 
+export const EmptyNames = Template.bind({});
+
+EmptyNames.args = {
+  firstName: undefined,
+  lastName: undefined,
+};
+
 export const ClickButton = Template.bind({});
 
 const mockHanlder = jest.fn();
