@@ -4,7 +4,12 @@ import { useFriends, useDetails } from './hooks';
 
 export const Home = () => {
   const { friends, isLoading, isError } = useFriends();
-  const { isDisabled } = useDetails();
+  const {
+    getFriendDetails,
+    isLoadingDetails,
+    isErrorDetails,
+    isSuccessDetails,
+  } = useDetails();
   const navigate = useNavigate();
 
   return (
@@ -13,9 +18,8 @@ export const Home = () => {
         title="Friends"
         data={friends}
         isError={isError}
-        isDisabled={isDisabled}
         isLoading={isLoading}
-        onClick={() => navigate('/details')}
+        onClick={getFriendDetails}
       />
     </Section>
   );

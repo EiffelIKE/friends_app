@@ -1,34 +1,33 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { useLazyGetDetailsQuery } from '../../../store/slices/useDetails';
-import type { DetailsData } from '../../../shared/types';
+
 import { useAppDispatch } from '../../../shared/hooks/reduxHooks';
 import { setDetails } from '../../../store/slices/detailSlice';
 
 export const useDetails = () => {
-  const [friendDetails, setFriendDetails] = useState<DetailsData>();
-  const [getDetails, { data, isSuccess }] = useLazyGetDetailsQuery();
+  const [getDetails, { data, isSuccess, isError, isLoading }] =
+    useLazyGetDetailsQuery();
   const dispatch = useAppDispatch();
+  const navigate = useNavigate();
 
-  const isDisabled = useCallback(
-    (id: number) => {
-      if (friendDetails && friendDetails.id) {
-        return friendDetails.id !== id;
-      }
-      return true;
-    },
-    [friendDetails]
-  );
+  const getFriendDetails = (id: number) => getDetails(id);
 
   useEffect(() => {
-    getDetails({});
-  }, [getDetails]);
-
-  useEffect(() => {
-    if (data && isSuccess) {
-      setFriendDetails(data);
-      dispatch(setDetails(data));
+    if (data && isSuccess && data.data) {
+      dispatch(setDetails(data.data));
+      navigate('/details');
     }
-  }, [data, isSuccess, dispatch]);
+  }, [data, isSuccess, dispatch, navigate]);
 
-  return { isDisabled };
+  const isSuccessDetails = isSuccess;
+  const isErrorDetails = isError;
+  const isLoadingDetails = isLoading;
+
+  return {
+    getFriendDetails,
+    isSuccessDetails,
+    isErrorDetails,
+    isLoadingDetails,
+  };
 };

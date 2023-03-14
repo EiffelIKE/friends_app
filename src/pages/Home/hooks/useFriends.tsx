@@ -13,8 +13,8 @@ export const useFriends = () => {
   }, [getFriends]);
 
   useEffect(() => {
-    if (data && isSuccess) {
-      setFriends(data);
+    if (data && isSuccess && data.data) {
+      setFriends(data.data);
     }
   }, [data, isSuccess]);
 

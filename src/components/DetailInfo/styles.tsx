@@ -12,7 +12,6 @@ export const FriendData = styled.div`
 export const Data = styled.div`
   display: flex;
   flex-direction: column;
-  text-transform: capitalize;
   gap: 1.2vh;
   &.column {
     display: grid;

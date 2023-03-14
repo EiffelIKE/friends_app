@@ -43,7 +43,7 @@ export const FriendCard: FC<FriendCardProps> = ({
         <Button
           disabled={disabled}
           variant="main"
-          onClick={() => onClick && onClick(id)}
+          onClick={() => onClick && onClick()}
         >
           Details
         </Button>
