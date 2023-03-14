@@ -27,7 +27,7 @@ export const DetailInfo: FC<DetailInfoProps> = ({
                       i === arr.length - 1 && index !== array.length - 1,
                   })}
                 >
-                  <Text isGray>{`${entrie[0]}:`}</Text>
+                  <Text isGray className="capitalize">{`${entrie[0]}:`}</Text>
                   <Text className="info-text">{entrie[1]}</Text>
                 </Data>
               );
