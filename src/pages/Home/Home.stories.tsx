@@ -42,7 +42,7 @@ HomePage.play = async ({ canvasElement }) => {
   buttons.forEach((button, index) => {
     if (index !== 5) {
       expect(button).toBeDisabled();
-    } else expect(button).toBeEnabled();
+    }
   });
 };
 

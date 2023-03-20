@@ -9,7 +9,7 @@ export const GalleryModal: FC<GalleryModalProps> = ({ src, alt, onClose }) => {
     <ModalContainer>
       <StyledCloseButton onClose={onClose} />
       <ImageContainer>
-        <Img src={src} alt={`${alt} open`} />
+        <Img src={src} alt={`${alt} open`} className="aspect-ratio__4x3" />
       </ImageContainer>
     </ModalContainer>
   );
