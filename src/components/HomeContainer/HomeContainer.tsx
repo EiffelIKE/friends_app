@@ -2,16 +2,10 @@ import { FC } from 'react';
 import { FriendList } from '../FriendList';
 import { SectionContainer } from '../SectionContainer';
 import { Text } from '../Text';
-import { FriendsContainer, TextRow, CardRow } from './styles';
-import type { FriendListProps } from '../FriendList/types';
 import { InfoMessage } from '../InfoMessage';
 import { LoadingFriendCard } from '../LoadingFriendCard';
-
-export interface HomeContainerProps extends FriendListProps {
-  title: string;
-  isError: boolean;
-  isLoading: boolean;
-}
+import { FriendsContainer, TextRow, CardRow } from './styles';
+import type { HomeContainerProps } from './types';
 
 export const HomeContainer: FC<HomeContainerProps> = ({
   title,

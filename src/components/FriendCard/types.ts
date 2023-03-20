@@ -6,5 +6,5 @@ export interface FriendCardProps {
   lastName: string;
   text: string;
   disabled?: boolean;
-  onClick?: (id: number) => void;
+  onClick?: () => void;
 }

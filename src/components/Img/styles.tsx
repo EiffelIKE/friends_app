@@ -18,4 +18,9 @@ export const StyledImg = styled.img`
     transform: scale(1.06);
     transition: transform 0.4s;
   }
+  &.aspect-ratio {
+    &__4x3 {
+      aspect-ratio: 4/3;
+    }
+  }
 `;

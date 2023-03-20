@@ -20,7 +20,7 @@ export const DetailsContainer = styled(Container)`
 export const DetailsCol = styled(Col)`
   display: flex;
   flex-direction: column;
-  gap: 1.5vh;
+  gap: 3vh;
   padding: 5.8vh;
   @media screen and (max-width: 608px) {
     width: 100vw;
