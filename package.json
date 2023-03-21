@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --mode=develop",
-    "build": "tsc && vite build",
+    "build:dev": "tsc && vite build --mode=develop",
     "preview": "vite preview",
     "chromatic": "npx chromatic --exit-zero-on-changes",
     "storybook": "start-storybook -p 6006 -s public",
