@@ -1,1 +1,2 @@
 !.storybook/*.js
+vite.config.ts
