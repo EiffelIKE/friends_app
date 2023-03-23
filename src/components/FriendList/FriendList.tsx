@@ -22,7 +22,7 @@ export const FriendList: FC<FriendListProps> = ({
               lastName={item.last_name}
               text={item.status}
               onClick={() => onClick && onClick()}
-              disabled={isDisabled(item.id)}
+              disabled={isDisabled && isDisabled(item.id)}
             />
           </li>
         );
