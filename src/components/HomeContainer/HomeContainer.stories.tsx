@@ -67,6 +67,15 @@ ErrorHome.args = {
   isError: true,
 };
 
+export const EmptyHome = Template.bind({});
+
+EmptyHome.args = {
+  title: 'Friends',
+  data: [],
+  isError: false,
+  isLoading: false,
+};
+
 export const OverflowTitle = Template.bind({});
 
 OverflowTitle.args = {
