@@ -14,7 +14,6 @@ export const StyledCloseButton = styled(CloseButton)`
 
 export const ImageContainer = styled.div`
   width: 68.4vw;
-  height: 64vh;
   justify-self: center;
   ${scaleOut({})}
   @media screen and (max-width: 578px) {

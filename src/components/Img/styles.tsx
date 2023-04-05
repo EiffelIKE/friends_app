@@ -22,5 +22,8 @@ export const StyledImg = styled.img`
     &__4x3 {
       aspect-ratio: 4/3;
     }
+    &__3x2 {
+      aspect-ratio: 3/2;
+    }
   }
 `;

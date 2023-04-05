@@ -21,7 +21,7 @@ export const useDetails = () => {
 
   useEffect(() => {
     getDetails({});
-  }, [getDetails]);
+  }, []);
 
   useEffect(() => {
     if (data && isSuccess) {
