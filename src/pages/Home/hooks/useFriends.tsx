@@ -10,7 +10,7 @@ export const useFriends = () => {
 
   useEffect(() => {
     getFriends({});
-  }, [getFriends]);
+  }, []);
 
   useEffect(() => {
     if (data && isSuccess) {
